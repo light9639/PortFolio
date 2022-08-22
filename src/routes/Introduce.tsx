@@ -27,7 +27,7 @@ function Introduce() {
                                         href={list[i].href1}
                                         className="border-t border-grey-light pt-5 text-1xl text-grey hover:text-red no-underline tracking-wide"
                                     >
-                                        <span className="hidden md:inline-block pb-2 md:pb-0">Github 바로가기 :</span> <span className="inline-flex text-white bg-blue-500 border-0 py-1.5 px-3.5 rounded-md text-base focus:outline-none hover:bg-blue-600">Github 페이지로 이동</span>
+                                        <span className="hidden md:inline-block pb-2 md:pb-0">Github 바로가기 :</span> <span className="inline-flex text-white bg-gray-500 border-0 py-1.5 px-3.5 rounded-md text-base focus:outline-none hover:bg-gray-600">Github 페이지로 이동</span>
                                     </a>
                                     <a
                                         href={list[i].href2}

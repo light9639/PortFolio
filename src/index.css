@@ -35,7 +35,7 @@ body {
   background: url("https://raw.githubusercontent.com/light9639/PortFolio/main/assets/background.jpg");
   height: 100%;
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
@@ -56,6 +56,22 @@ h1 {
   }
 }
 
+.Undefined h1 {
+  padding-top: 50px;
+  font-size: 80px;
+}
+@media screen and (max-width: 1024px) {
+  .Undefined h1 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Undefined h1 {
+    padding-top: 0px;
+    font-size: 50px;
+  }
+}
+
 h2 {
   font-size: 2.5em;
   line-height: 1.1;
@@ -64,6 +80,22 @@ h2 {
 
 h2 span {
   color: #535bf2;
+}
+
+.Undefined h2 {
+  margin-top: 10px;
+  font-size: 50px;
+  margin-bottom: -25px;
+}
+@media screen and (max-width: 1024px) {
+  .Undefined h2 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Undefined h2 {
+    font-size: 30px;
+  }
 }
 
 button {

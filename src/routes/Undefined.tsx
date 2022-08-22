@@ -5,9 +5,10 @@ import Animation from './Animation'
 function Undefined() {
     return (
         <>
-            <div style={{ maxWidth: "100%", width: "600px", margin: "auto" }}>
+            <div className='Undefined' style={{ maxWidth: "100%", width: "600px", margin: "auto" }}>
+                <h1>404</h1>
+                <h2>Oops! Page Not Found.</h2>
                 <Animation />
-                <h2 style={{ fontSize: "24px" }}>지금은 페이지 준비 중입니다.</h2>
             </div>
         </>
     )

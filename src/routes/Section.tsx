@@ -19,8 +19,8 @@ function Section() {
                     <p className="mb-8 leading-relaxed text-lg lg:text-xl mt-3">저는 웹 프론트엔드 개발분야에 <br className='block sm:hidden' />취업을 준비중인 이동호 입니다.
                         <br />React, Express, Typescript 등 <br className='block sm:hidden' />웹개발에 필요한 것들에 관심이 많습니다.</p>
                     <div className="flex justify-center">
-                        <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-indigo-600 mr-3"><a href='/'>About Me</a></button>
-                        <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-indigo-600" onClick={introduce}>프로젝트 보러가기</button>
+                        <button className="inline-flex text-white bg-gray-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-gray-600 mr-3"><a href='/'>About Me</a></button>
+                        <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-blue-600" onClick={introduce}>프로젝트 보러가기</button>
                     </div>
                 </div>
                 <div className="w-5/6 lg:w-full lg:max-w-lg">
