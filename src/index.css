@@ -32,10 +32,10 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  background: url("https://tailwindcss.com/_next/static/media/hero@75.4dea7abe609fc522c039fba7662ceea2.jpg");
+  background: url("./img/background.jpg");
   height: 100%;
   width: 100%;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
 }

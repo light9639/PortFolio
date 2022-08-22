@@ -22,15 +22,15 @@ let data = [
         use3 : 'Vite'
     },
     {
-        url : 'https://light9639.github.io/BookSaTong/img/mainBanner_01.jpg',
+        url : 'https://raw.githubusercontent.com/light9639/Calculator/master/src/assets/light9639.github.io_Calculator_.png',
         title : 'React 계산기',
         contents : 'React를 이용하여 만든 계산기입니다.',
         time : '2022.08.20 ~ 2022.08.22',
         href1 : 'https://github.com/light9639/Calculator/tree/master',
         href2 : 'https://light9639.github.io/Calculator/',
         use1: 'React',
-        use2 : 'Styled Component',
-        use3 : 'Vite'
+        use2 : 'Vite',
+        use3 : 'Styled Component'
     },
     {
         url : 'https://light9639.github.io/BookSaTong/img/mainBanner_01.jpg',
