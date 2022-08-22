@@ -4,7 +4,7 @@ let data = [
         title : '포트폴리오 사이트',
         contents : 'React와 TypeScript로 만든 포트폴리오 소개 사이트입니다.',
         time : '2022.07.25 ~ 2022.07.29',
-        href1 : 'https://github.com/light9639/PortFolio_origin',
+        href1 : 'https://github.com/light9639/PortFolio/tree/master',
         href2 : '/PortFolio',
         use1: 'React',
         use2 : 'TypeScript',
@@ -19,6 +19,17 @@ let data = [
         href2 : 'https://light9639.github.io/Shopping-Mall',
         use1: 'React',
         use2 : 'Redux',
+        use3 : 'Vite'
+    },
+    {
+        url : 'https://light9639.github.io/BookSaTong/img/mainBanner_01.jpg',
+        title : 'React 계산기',
+        contents : 'React를 이용하여 만든 계산기입니다.',
+        time : '2022.08.20 ~ 2022.08.22',
+        href1 : 'https://github.com/light9639/Calculator/tree/master',
+        href2 : 'https://light9639.github.io/Calculator/',
+        use1: 'React',
+        use2 : 'Styled Component',
         use3 : 'Vite'
     },
     {
