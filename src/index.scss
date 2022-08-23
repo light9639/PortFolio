@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+$pc1024: 1024px;
+$mobile767: 767px;
+
+@mixin respond($size) {
+  @media screen and (max-width:$size) {
+      @content;
+  }
+}
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -19,11 +29,10 @@
 a {
   font-weight: 500;
   text-decoration: none;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-a:hover {
-  opacity: 0.75;
+  transition: .5s;
+  &:hover {
+    opacity: .75;
+  }
 }
 
 body {
@@ -41,14 +50,10 @@ h1 {
   font-size: 3em;
   line-height: 1.1;
   font-weight: 700;
-}
-@media screen and (max-width: 1024px) {
-  h1 {
+  @include respond($pc1024) {
     font-size: 2.5em;
   }
-}
-@media screen and (max-width: 767px) {
-  h1 {
+  @include respond($mobile767) {
     font-size: 2em;
   }
 }
@@ -68,28 +73,23 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  -webkit-transition: border-color 0.25s;
   transition: border-color 0.25s;
-}
-button :hover {
-  border-color: #646cff;
-}
-button :focus,
-button :focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  :hover {
+    border-color: #646cff;
+  }
+  :focus,
+  :focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
 }
 
 .Undefined h1 {
   padding-top: 50px;
   font-size: 80px;
-}
-@media screen and (max-width: 1024px) {
-  .Undefined h1 {
+  @include respond($pc1024) {
     font-size: 70px;
   }
-}
-@media screen and (max-width: 767px) {
-  .Undefined h1 {
+  @include respond($mobile767) {
     padding-top: 0px;
     font-size: 50px;
   }
@@ -99,14 +99,10 @@ button :focus-visible {
   margin-top: 20px;
   font-size: 50px;
   margin-bottom: -25px;
-}
-@media screen and (max-width: 1024px) {
-  .Undefined h2 {
+  @include respond($pc1024) {
     font-size: 36px;
   }
-}
-@media screen and (max-width: 767px) {
-  .Undefined h2 {
+  @include respond($mobile767) {
     font-size: 30px;
   }
 }
@@ -131,6 +127,7 @@ header .logoImg,
 
 .first_button,
 .second_button {
+  // background: linear-gradient(135deg, #0072ff, #00c6ff);
   background: linear-gradient(45deg, #bd34fe, #53baff);
 }
 
@@ -138,16 +135,15 @@ header .logoImg,
   background: linear-gradient(225deg, #0072ff, #00c6ff);
 }
 
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
-
   a:hover {
     color: #747bff;
   }
-
   button {
     background-color: #f9f9f9;
   }

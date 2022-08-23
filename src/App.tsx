@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import './App.css'
+import About from './routes/About';
 import Contact from './routes/Contact';
 import Detail from './routes/Detail';
 import Footer from './routes/footer';
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={ <Section/> } />
             <Route path="/PortFolio" element={ <Section/> } />
+            <Route path="/About" element={ <About/> } />
             <Route path="/introduce" element={ <Introduce/> } />
             <Route path="/contact" element={ <Contact/> } />
             <Route path="/detail" element={ <Detail/> } />

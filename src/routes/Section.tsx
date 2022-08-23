@@ -12,15 +12,15 @@ function Section() {
         <section className="text-gray-700 body-font">
             <div className="container mx-auto flex px-5 py-14 md:py-28 flex-col lg:flex-row items-center">
                 <div className="flex flex-col mb-16 items-center text-center lg:w-1/2 lg:pr-16 lg:items-start lg:text-left lg:mb-0 lg:flex-grow">
-                    <h1 className="title-font text-2xl mb-0 lg:mb-4 font-medium text-gray-900 md:text-3xl lg:text-4xl">안녕하세요.</h1>
-                    <h1 className="title-font text-2xl mb-4  font-medium text-gray-900 md:text-3xl lg:text-4xl leading-">
+                    <h1 className="title-font text-2xl mb-0 lg:mb-4 font-semibold text-gray-900 md:text-3xl lg:text-4xl">안녕하세요.</h1>
+                    <h1 className="title-font text-2xl mb-4 font-semibold text-gray-900 md:text-3xl lg:text-4xl leading-">
                         저의 포트폴리오 사이트에 <br className='block lg:hidden'></br>방문해주셔서 감사합니다 !
                     </h1>
                     <p className="mb-8 leading-relaxed text-lg lg:text-xl mt-3">저는 웹 프론트엔드 개발분야에 <br className='block sm:hidden' />취업을 준비중인 이동호 입니다.
                         <br />React, Express, Typescript 등 <br className='block sm:hidden' />웹개발에 필요한 것들에 관심이 많습니다.</p>
                     <div className="flex justify-center">
-                        <button className="inline-flex text-white bg-gray-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-gray-600 mr-3"><a href='/'>About Me</a></button>
-                        <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-blue-600" onClick={introduce}>프로젝트 보러가기</button>
+                        <button className="first_button inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-blue-600 mr-3"><a href='/About'>About Me</a></button>
+                        <button className="second_button inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-blue-600" onClick={introduce}>프로젝트 보러가기</button>
                     </div>
                 </div>
                 <div className="w-5/6 lg:w-full lg:max-w-lg">
