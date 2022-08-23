@@ -6,7 +6,7 @@ function footer() {
             <footer className="text-gray-600 border-t body-font">
                 <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
                     <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start" href="/">
-                        <span className="During ml-3 text-xl">이동호 포트폴리오
+                        <span className="text_gradient ml-3 text-xl">이동호 포트폴리오
                         </span>
                     </a>
                     <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">© 2022 이동호 —

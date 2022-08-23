@@ -107,17 +107,8 @@ button {
   }
 }
 
-.PortFolio_move,
-.Github_move {
-  color: #fff;
-  border-radius: 5px;
-}
-
-.During,
-h2 span,
-header .logoImg,
-.Undefined h1,
-.Undefined h2 {
+.text_gradient,
+h2 span {
   background-image: linear-gradient(135deg, #bd34fe 10%, #53baff 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -125,14 +116,30 @@ header .logoImg,
   font-weight: 600;
 }
 
+.text_gradient2 {
+  background-image: linear-gradient(-20deg, #0072ff, #00c6ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+
+.PortFolio_move,
+.Github_move {
+  background: linear-gradient(225deg, #0072ff, #00c6ff);
+  color: #fff;
+  border-radius: 5px;
+}
+
 .first_button,
-.second_button {
-  // background: linear-gradient(135deg, #0072ff, #00c6ff);
+.second_button,
+.purple_box {
   background: linear-gradient(45deg, #bd34fe, #53baff);
 }
 
 .small_box {
-  background: linear-gradient(225deg, #0072ff, #00c6ff);
+  background-image: linear-gradient(-25deg, #f9d423 0%, #ff4e50 100%);
 }
 
 

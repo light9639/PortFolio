@@ -10,14 +10,14 @@ function Nav() {
                     <Link to="/">
                         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="#" target="_blank">
                             <img src={viteLogo} alt="viteLogo" style={{ width: '50px' }} />
-                            <span className="logoImg ml-3 text-xl">My Project</span>
+                            <span className="text_gradient ml-3 text-xl">My Project</span>
                         </a>
                     </Link>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                         <Link to="/">{<a href="#" className="mr-5 hover:text-gray-900">홈</a>}</Link>
                         <Link to="/About">{<a href="#" className="mr-5 hover:text-gray-900">소개</a>}</Link>
                         <Link to="/introduce">{<a href="#" className="mr-5 hover:text-gray-900">프로젝트</a>}</Link>
-                        <Link to="/contact">{<a href="#" className="mr-5 hover:text-gray-900">연락하기</a>}</Link>
+                        <a href="https://open.kakao.com/o/s6c0Jpxe" className="mr-5 hover:text-gray-900">연락하기</a>
                         <button type="button" className="p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                             <span className="sr-only">View notifications</span>
                             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">

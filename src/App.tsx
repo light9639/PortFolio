@@ -2,8 +2,6 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import './App.css'
 import About from './routes/About';
-import Contact from './routes/Contact';
-import Detail from './routes/Detail';
 import Footer from './routes/footer';
 import Introduce from './routes/Introduce';
 import Nav from "./routes/Nav";
@@ -24,8 +22,6 @@ function App() {
             <Route path="/PortFolio" element={ <Section/> } />
             <Route path="/About" element={ <About/> } />
             <Route path="/introduce" element={ <Introduce/> } />
-            <Route path="/contact" element={ <Contact/> } />
-            <Route path="/detail" element={ <Detail/> } />
             <Route path="*" element={ <Undefined /> } />
           </Routes>
         </div>
