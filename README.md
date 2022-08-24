@@ -1,7 +1,7 @@
 # :zap: PortFolio 프로젝트 소개
 :octocat: 바로가기 https://light9639.github.io/PortFolio/
 
-![화면 캡처 2022-08-22](https://raw.githubusercontent.com/light9639/PortFolio/main/assets/light9639.github.io_PortFolio_.png)
+![화면 캡처 2022-08-22](https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/light9639.github.io_PortFolio_.png)
 
 :sparkles: 포트폴리오 소개 사이트입니다. :sparkles:
 
@@ -18,7 +18,8 @@ yarn dev
 ## :dart: 개발 목적
 - 기업제출용 포트폴리오 소개 사이트가 필요하여 만들게 되었습니다.
 ## :black_nib: 구현기능
-- 프로젝트 항목에서 작성된 포트폴리오을 간력하게 보실수 있습니다.
+- 홈페이지 About Me 버튼을 클릭하시면 소개 페이지로 이동합니다.
+- 홈페이지 프로젝트 보러가기 버튼을 클릭하시면 작성된 포트폴리오을 간략하게 보실수 있습니다.
 - 우측 상단의 이미지를 클릭하면 Github 페이지로 이동할 수 있습니다.
 - Lottie.js를 사용하여 애프터 이펙트로 만들어진 이미지를 Json 파일로 다운받은 뒤 사용하였습니다.
 ## :hammer_and_wrench: 적용 기술

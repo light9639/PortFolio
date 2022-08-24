@@ -1,6 +1,6 @@
 let data = [
     {
-        url : 'https://raw.githubusercontent.com/light9639/PortFolio/main/assets/laptop-working.gif',
+        url : 'https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/laptop-working.gif',
         title : '포트폴리오 사이트',
         contents : 'React와 TypeScript로 만든 포트폴리오 소개 사이트입니다.',
         time : '2022.07.25 ~ 2022.07.29',

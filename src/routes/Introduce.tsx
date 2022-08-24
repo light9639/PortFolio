@@ -27,20 +27,20 @@ function Introduce() {
                                         href={list[i].href1}
                                         className="border-t border-grey-light pt-5 text-1xl text-grey hover:text-red no-underline tracking-wide"
                                     >
-                                        <span className="hidden md:inline-block pb-2 md:pb-0">Github 바로가기 :</span> <span className="Github_move inline-flex py-1 px-3 text-base focus:outline-none">Github 페이지로 이동</span>
+                                        <span className="hidden md:inline-block pb-2 md:pb-0">Github 바로가기 :</span> <span className="Blue_box inline-flex py-1 px-3 text-base focus:outline-none">Github 페이지로 이동</span>
                                     </a>
                                     <a
                                         href={list[i].href2}
                                         className="pt-5 text-1xl text-grey hover:text-red uppercase no-underline tracking-wide"
                                     >
-                                        <span className="hidden md:inline-block pb-2 md:pb-0">프로젝트 바로가기 :</span> <span className="PortFolio_move inline-flex py-1 px-3 text-base focus:outline-none">포트폴리오 페이지로 이동</span>
+                                        <span className="hidden md:inline-block pb-2 md:pb-0">프로젝트 바로가기 :</span> <span className="Blue_box inline-flex py-1 px-3 text-base focus:outline-none">포트폴리오 페이지로 이동</span>
                                     </a>
                                 </div>
                                 <div className="pr-4 py-4 border-t border-grey-light">
                                     <span className="hidden lg:inline-block pr-3 py-1 text-sm font-semiboldmr-2 ">사용기술 :</span>
-                                    <span className="small_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {list[i].use1}</span>
-                                    <span className="small_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {list[i].use2}</span>
-                                    <span className="small_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white"># {list[i].use3}</span>
+                                    <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {list[i].use1}</span>
+                                    <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {list[i].use2}</span>
+                                    <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white"># {list[i].use3}</span>
                                 </div>
                             </div>
                         </div>
