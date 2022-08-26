@@ -33,6 +33,17 @@ let data = [
         use3 : 'Styled Component'
     },
     {
+        url : 'https://raw.githubusercontent.com/light9639/TodoList/master/src/assets/light9639.github.io_TodoList_.png',
+        title : 'React TodoList',
+        contents : 'React를 이용하여 만든 TodoList입니다.',
+        time : '2022.08.25 ~ 2022.08.30',
+        href1 : 'https://github.com/light9639/TodoList/tree/master',
+        href2 : 'https://light9639.github.io/TodoList/',
+        use1: 'React',
+        use2 : 'Vite',
+        use3 : 'TypeScript'
+    },
+    {
         url : 'https://light9639.github.io/BookSaTong/img/mainBanner_01.jpg',
         title : '북새통문고',
         contents : '북새통문고 사이트를 리뉴얼하여 만든 콘텐츠 플랫폼 사이트입니다.',
