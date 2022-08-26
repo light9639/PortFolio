@@ -25,8 +25,8 @@ yarn dev
 ## :hammer_and_wrench: 적용 기술
 ### :zap: React
 - data.ts에 링크와 내용을 작성한 뒤 프로젝트 항목에 대입하였습니다.
-- Component로 페이지를 분리시켰으며, Nav, Footer로 분리하여 작성하였습니다.
-- react-router-dom의 Link, Route를 사용하여 작성된 Component를 불러올 수 있습니다.
+- Component로 페이지를 분리시켰으며, `Nav`, `Footer`로 분리하여 작성하였습니다.
+- react-router-dom의 `Link`, `Route`를 사용하여 작성된 `Component`를 불러올 수 있습니다.
 
 ### :zap: TypeScript
 - 타입스크립트를 이용하여 타입을 지정함으로써 오류의 가능성을 줄였습니다.
