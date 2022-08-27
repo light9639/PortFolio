@@ -2,6 +2,7 @@
 :octocat: 바로가기 https://light9639.github.io/PortFolio/
 
 ![화면 캡처 2022-08-22](https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/light9639.github.io_PortFolio_.png)
+![화면 캡처 2022-08-27](https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/light9639.github.io_PortFolio_Dark.png)
 
 :sparkles: 포트폴리오 소개 사이트입니다. :sparkles:
 
@@ -24,6 +25,7 @@ yarn dev
 - Lottie.js를 사용하여 애프터 이펙트로 만들어진 이미지를 Json 파일로 다운받은 뒤 사용하였습니다.
 ## :hammer_and_wrench: 적용 기술
 ### :zap: React
+- Nav 아이콘을 클릭하면 `DarkMode`가 실행되도록 구현하였습니다.
 - data.ts에 링크와 내용을 작성한 뒤 프로젝트 항목에 대입하였습니다.
 - Component로 페이지를 분리시켰으며, `Nav`, `Footer`로 분리하여 작성하였습니다.
 - react-router-dom의 `Link`, `Route`를 사용하여 작성된 `Component`를 불러올 수 있습니다.

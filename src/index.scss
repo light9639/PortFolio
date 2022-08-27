@@ -140,13 +140,13 @@ h2 span {
 }
 
 .Dark {
-  background: url("./img/bakcground_dark.jpg");
+  background: url("https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/bakcground_dark.jpg");
   h1, h2, h3, a, p, .tech_skill {
     color: #fff;
   }
   .About_box_behind {
     --tw-bg-opacity: 1;
-      background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+    background-color: rgb(100 116 139 / var(--tw-bg-opacity));
   }
   .About_box,
   .introduce_box {

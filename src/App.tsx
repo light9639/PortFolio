@@ -10,8 +10,6 @@ import Section from './components/Section';
 import Undefined from './components/Undefined';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
 
