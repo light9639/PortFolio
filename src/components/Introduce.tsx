@@ -10,7 +10,7 @@ function Introduce() {
                 {list.map(function (a, i: number) {
                     return (
                         <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col p-5">
-                            <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl transition">
+                            <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl transition">
                                 <div
                                     className="bg-cover h-80"
                                     style={{ backgroundImage: "url(" + list[i].url + ")", backgroundSize: "cover", backgroundPosition: "center" }}
@@ -37,7 +37,7 @@ function Introduce() {
                                     </a>
                                 </div>
                                 <div className="pr-4 py-4 border-t border-grey-light">
-                                    <span className="hidden lg:inline-block pr-3 py-1 text-sm font-semiboldmr-2 ">사용기술 :</span>
+                                    <span className="tech_skill hidden lg:inline-block pr-3 py-1 text-sm font-semiboldmr-2 ">사용기술 :</span>
                                     <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {list[i].use1}</span>
                                     <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {list[i].use2}</span>
                                     <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white"># {list[i].use3}</span>

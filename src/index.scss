@@ -139,6 +139,31 @@ h2 span {
   background-image: linear-gradient(-25deg, #f9d423 0%, #ff4e50 100%);
 }
 
+.Dark {
+  background: url("./img/bakcground_dark.jpg");
+  h1, h2, h3, a, p, .tech_skill {
+    color: #fff;
+  }
+  .About_box_behind {
+    --tw-bg-opacity: 1;
+      background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+  }
+  .About_box,
+  .introduce_box {
+    --tw-bg-opacity: 1;
+      background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  }
+  #toggleDarkMode {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  }
+  .Light_button {
+    display: none;
+  }
+  .Dark_button {
+    display: block;
+  }
+}
 
 @media (prefers-color-scheme: light) {
   :root {

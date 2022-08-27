@@ -5,8 +5,8 @@ function About() {
         <>
             <div className='pt-16'>
                 <div className="relative py-3 sm:max-w-3xl sm:mx-auto">
-                    <div className="absolute inset-0 bg-blue-400 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-                    <div className="relative px-4 py-20 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+                    <div className="About_box_behind absolute inset-0 bg-blue-400 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+                    <div className="About_box relative px-4 py-20 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                         <div className="max-w-xl mx-auto text-center">
                             <div>
                                 <h1 className="text-3xl font-extrabold pb-10"><span className="text_gradient">About Me</span></h1>
