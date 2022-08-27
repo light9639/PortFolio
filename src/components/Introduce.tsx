@@ -10,7 +10,7 @@ function Introduce() {
                 {list.map(function (a, i: number) {
                     return (
                         <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col p-5">
-                            <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl transition">
+                            <div className="introduce_MainBox">
                                 <div
                                     className="bg-cover h-80"
                                     style={{ backgroundImage: "url(" + list[i].url + ")", backgroundSize: "cover", backgroundPosition: "center" }}
@@ -21,26 +21,26 @@ function Introduce() {
                                         <p>{list[i].contents} </p>
                                     </div>
                                     <div className="border-t border-grey-light pt-5 mb-4 text-grey-darker text-base flex-1">
-                                        <p><span className="hidden md:inline-block pb-2 md:pb-0">기간/인원 :</span> <span className="text_gradient">{list[i].time}</span> / <span className="font-medium">1인 개발</span> </p>
+                                        <p><span className="introduce_text">기간/인원 :</span> <span className="text_gradient">{list[i].time}</span> / <span className="font-medium">1인 개발</span> </p>
                                     </div>
                                     <a
                                         href={list[i].href1}
                                         className="border-t border-grey-light pt-5 text-1xl text-grey hover:text-red no-underline tracking-wide"
                                     >
-                                        <span className="hidden md:inline-block pb-2 md:pb-0">Github 바로가기 :</span> <span className="Blue_box inline-flex py-1 px-3 text-base focus:outline-none">Github 페이지로 이동</span>
+                                        <span className="introduce_text">Github 바로가기 :</span> <span className="introduce_BlueBox">Github 페이지로 이동</span>
                                     </a>
                                     <a
                                         href={list[i].href2}
                                         className="pt-5 text-1xl text-grey hover:text-red uppercase no-underline tracking-wide"
                                     >
-                                        <span className="hidden md:inline-block pb-2 md:pb-0">프로젝트 바로가기 :</span> <span className="Blue_box inline-flex py-1 px-3 text-base focus:outline-none">포트폴리오 페이지로 이동</span>
+                                        <span className="introduce_text">프로젝트 바로가기 :</span> <span className="introduce_BlueBox">포트폴리오 페이지로 이동</span>
                                     </a>
                                 </div>
                                 <div className="pr-4 py-4 border-t border-grey-light">
-                                    <span className="tech_skill hidden lg:inline-block pr-3 py-1 text-sm font-semiboldmr-2 ">사용기술 :</span>
-                                    <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {list[i].use1}</span>
-                                    <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {list[i].use2}</span>
-                                    <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white"># {list[i].use3}</span>
+                                    <span className="tech_skill hidden lg:inline-block pr-3 py-1 text-sm font-semiboldmr-2">사용기술 :</span>
+                                    <span className="introduce_smallBox mr-2"># {list[i].use1}</span>
+                                    <span className="introduce_smallBox mr-2"># {list[i].use2}</span>
+                                    <span className="introduce_smallBox"># {list[i].use3}</span>
                                 </div>
                             </div>
                         </div>

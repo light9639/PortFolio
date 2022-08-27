@@ -13,14 +13,14 @@ function Nav() {
                         </a>
                     </Link>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                        <Link to="/">{<a href="#" className="mr-5 hover:text-gray-900">홈</a>}</Link>
-                        <Link to="/About">{<a href="#" className="mr-5 hover:text-gray-900">소개</a>}</Link>
-                        <Link to="/introduce">{<a href="#" className="mr-5 hover:text-gray-900">프로젝트</a>}</Link>
-                        <a href="https://open.kakao.com/o/s6c0Jpxe" className="mr-5 hover:text-gray-900">연락하기</a>
+                        <Link to="/">{<span className="Nav_text mr-5">홈</span>}</Link>
+                        <Link to="/About">{<span className="Nav_text mr-5">소개</span>}</Link>
+                        <Link to="/introduce">{<span className="Nav_text mr-5">프로젝트</span>}</Link>
+                        <a href="https://open.kakao.com/o/s6c0Jpxe" className="Nav_text mr-5">연락하기</a>
                         <DarkModeToggle></DarkModeToggle>
                         <div className="ml-3 relative">
                             <a href='https://github.com/light9639'>
-                                <button type="button" className="flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                                <button type="button" className="Nav_Github_button" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                                     <span className="sr-only">Open user menu</span>
                                     <img className="h-8 w-8 rounded-full" src="https://avatars.githubusercontent.com/u/95972251?v=4" alt="" />
                                 </button>

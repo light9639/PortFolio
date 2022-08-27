@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
-import './App.css'
 import About from './components/About';
 import DarkModeToggle from './components/DarkModeToggle';
 import Footer from './components/footer';
