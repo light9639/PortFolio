@@ -52,27 +52,3 @@ function Introduce() {
 }
 
 export default Introduce;
-
-{/* <h1 className="mt-10">작성된 프로젝트 <span>6개</span></h1>
-<div className="flex flex-wrap -m-3 dark:bg-slate-900 mt-10 max-w-7xl mx-auto md:w-1/1">
-    {list.map(function (a, i: number) {
-        return (
-            <div className="w-6/12">
-                <div className="max-w-md overflow-hidden shadow-lg mx-auto my-8 hover:scale-105 hover:shadow-2xl transition rounded-2xl">
-                    <img className="w-full bg-cover h-72" style={{ backgroundImage: "url(" + list[i].url + ")" }} />
-                    <div className="px-6 py-4">
-                        <div className="font-bold text-xl mb-2">{list[i].title}</div>
-                        <p className="text-gray-600 text-base">
-                            {list[i].contents}
-                        </p>
-                    </div>
-                    <div className="px-6 py-4">
-                        <span className="inline-block bg-gray-300 rounded-md px-3 py-1 text-sm font-semibold text-gray-600 mr-2">#photography</span>
-                        <span className="inline-block bg-gray-300 rounded-md px-3 py-1 text-sm font-semibold text-gray-600 mr-2">#travel</span>
-                        <span className="inline-block bg-gray-300 rounded-md px-3 py-1 text-sm font-semibold text-gray-600">#winter</span>
-                    </div>
-                </div>
-            </div>
-        );
-    })}
-</div> */}

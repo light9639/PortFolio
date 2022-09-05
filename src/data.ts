@@ -33,7 +33,7 @@ let data = [
         use3 : 'Styled Component'
     },
     {
-        url : 'https://raw.githubusercontent.com/light9639/TodoList/master/src/assets/light9639.github.io_TodoList_.png',
+        url : 'https://raw.githubusercontent.com/light9639/TodoList/master/public/light9639.github.io_TodoList_.png',
         title : 'React TodoList',
         contents : 'React를 이용하여 만든 TodoList입니다.',
         time : '2022.08.25 ~ 2022.08.30',

@@ -21,7 +21,7 @@ function App() {
             <Route path="/About" element={ <About/> } />
             <Route path="/introduce" element={ <Introduce/> } />
             <Route path="/Dark" element={ <DarkModeToggle /> } />
-            <Route path="*" element={ <Undefined /> } />
+            <Route path="/*" element={ <Undefined /> } />
           </Routes>
         </div>
 
