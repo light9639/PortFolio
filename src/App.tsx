@@ -16,11 +16,11 @@ function App() {
 
         <div className='pt-16 pb-32'>
           <Routes>
-            <Route path="/" element={ <Section/> } />
             <Route path="/PortFolio" element={ <Section/> } />
-            <Route path="/About" element={ <About/> } />
-            <Route path="/introduce" element={ <Introduce/> } />
-            <Route path="/Dark" element={ <DarkModeToggle /> } />
+            <Route path="/PortFolio/" element={ <Section/> } />
+            <Route path="/PortFolio/About" element={ <About/> } />
+            <Route path="/PortFolio/introduce" element={ <Introduce/> } />
+            <Route path="/PortFolio/Dark" element={ <DarkModeToggle /> } />
             <Route path="/*" element={ <Undefined /> } />
           </Routes>
         </div>

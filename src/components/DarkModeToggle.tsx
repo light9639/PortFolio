@@ -4,7 +4,7 @@ function DarkModeToggle() {
     const [count, setCount] = React.useState<number>(0)
 
     function Click(){
-        setCount(count+1);
+        setCount((prevCount) => prevCount + 1)
         const clickEvent = document.getElementById('toggleDarkMode') as HTMLElement;
 
         clickEvent?.addEventListener('click', () => {
