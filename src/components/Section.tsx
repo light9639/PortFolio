@@ -6,10 +6,10 @@ function Section() {
     let navigate = useNavigate();
 
     function introduce() {
-        navigate('/PortFolio/introduce')
+        navigate('/introduce')
     }
     function About() {
-        navigate('/PortFolio/About')
+        navigate('/About')
     }
     return (
         <section className="text-gray-700 body-font">
