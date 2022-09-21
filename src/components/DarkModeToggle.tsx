@@ -3,11 +3,11 @@ import React, { useState } from 'react'
 function DarkModeToggle() {
     const [count, setCount] = React.useState<number>(0)
 
-    function Click(){
+    function Click() {
         setCount((prevCount) => prevCount + 1)
         const clickEvent = document.getElementById('toggleDarkMode') as HTMLElement;
 
-        clickEvent?.addEventListener('click', () => {
+        clickEvent.addEventListener('click', () => {
             if (count % 2 == 0) {
                 document.body.classList.add('Dark');
             }

@@ -6,13 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "start": "next start",
-    "preview": "vite preview",
-    "lint": "next lint"
+    "preview": "vite preview"
   },
   "dependencies": {
     "lottie-web": "^5.9.6",
-    "next": "^12.2.3",
     "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

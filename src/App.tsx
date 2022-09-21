@@ -12,20 +12,20 @@ function App() {
   return (
     <div className="App">
 
-        <Nav />
+      <Nav />
 
-        <div className='pt-16 pb-32'>
-          <Routes>
-            <Route path="/PortFolio" element={ <Section/> } />
-            <Route path="/PortFolio/" element={ <Section/> } />
-            <Route path="/PortFolio/About" element={ <About/> } />
-            <Route path="/PortFolio/introduce" element={ <Introduce/> } />
-            <Route path="/PortFolio/Dark" element={ <DarkModeToggle /> } />
-            <Route path="/*" element={ <Undefined /> } />
-          </Routes>
-        </div>
+      <div className='pt-16 pb-32'>
+        <Routes>
+          <Route path="/PortFolio" element={<Section />} />
+          <Route path="/PortFolio/" element={<Section />} />
+          <Route path="/PortFolio/About" element={<About />} />
+          <Route path="/PortFolio/introduce" element={<Introduce />} />
+          <Route path="/PortFolio/Dark" element={<DarkModeToggle />} />
+          <Route path="/*" element={<Undefined />} />
+        </Routes>
+      </div>
 
-        <Footer />
+      <Footer />
     </div>
 
   )
