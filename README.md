@@ -1,5 +1,5 @@
 # :zap: PortFolio 프로젝트 소개
-:octocat: 바로가기 https://light9639.github.io/PortFolio/
+:octocat: 바로가기 https://light9639-portfolio.netlify.app/
 
 ![화면 캡처 2022-08-22](https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/light9639.github.io_PortFolio_.png)
 ![화면 캡처 2022-08-27](https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/light9639.github.io_PortFolio_Dark.png)
