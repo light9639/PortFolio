@@ -38,3 +38,9 @@ yarn dev
 
 ### :zap: Vite
 - WebPack을 사용하는 대신 Vite라는 2세대 번들링 툴을 사용하여 서버에서 작동하는 JS의 크기를 줄이고 속도를 높였습니다.
+
+## :tada: Netlify를 이용한 배포
+
+- 정적 사이트을 쉽게 배포할 수 있는 [Netlify Platform](https://www.netlify.com/)을 이용하여 React-Vite 포트폴리오를 배포하였습니다.
+
+- 더 자세한 내용을 보고 싶으시다면 [Netlify deployment documentation](https://docs.netlify.com/) 페이지를 참고하세요.
