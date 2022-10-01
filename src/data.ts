@@ -5,7 +5,7 @@ let data = [
         contents: 'React와 TypeScript로 만든 포트폴리오 소개 사이트입니다.',
         time: '2022.07.25 ~ 2022.07.29',
         href1: 'https://github.com/light9639/PortFolio/tree/master',
-        href2: '/PortFolio',
+        href2: '/',
         use1: 'React',
         use2: 'TypeScript',
         use3: 'Vite'

@@ -17,7 +17,6 @@ function App() {
       <div className='pt-16 pb-32'>
         <Routes>
           <Route path="/" element={<Section />} />
-          {/* <Route path="/" element={<Section />} /> */}
           <Route path="/About" element={<About />} />
           <Route path="/introduce" element={<Introduce />} />
           <Route path="/Dark" element={<DarkModeToggle />} />
