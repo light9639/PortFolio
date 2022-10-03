@@ -11,7 +11,7 @@ let data = [
         use3: 'Vite'
     },
     {
-        url: 'https://raw.githubusercontent.com/light9639/Shoe-Store/main/public/img/mainBanner02.jpg',
+        url: 'https://shoe-store-lemon.vercel.app/mainBanner01.png',
         title: 'Shoe Store',
         contents: 'Next.js와 Redux로 만든 신발 쇼핑몰 사이트입니다.',
         time: '2022.09.01 ~ 2022.09.30',

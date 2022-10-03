@@ -7,11 +7,11 @@ $mobile767: 767px;
 
 @mixin respond($size) {
   @media screen and (max-width:$size) {
-      @content;
+    @content;
   }
 }
 
-@mixin text_content(){
+@mixin text_content() {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -43,11 +43,13 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow-x: hidden;
+
   #root {
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
+
     @include respond($pc1024) {
       padding: 1rem;
     }
@@ -57,9 +59,11 @@ body {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
+
     :hover {
       filter: drop-shadow(0 0 2em #646cffaa);
     }
+
     .react:hover {
       filter: drop-shadow(0 0 2em #61dafbaa);
     }
@@ -69,6 +73,7 @@ body {
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(360deg);
     }
@@ -86,6 +91,7 @@ body {
     font-weight: 500;
     text-decoration: none;
     transition: .5s;
+
     &:hover {
       opacity: .75;
     }
@@ -95,9 +101,11 @@ body {
     font-size: 3em;
     line-height: 1.1;
     font-weight: 700;
+
     @include respond($pc1024) {
       font-size: 2.5em;
     }
+
     @include respond($mobile767) {
       font-size: 2em;
     }
@@ -120,9 +128,11 @@ body {
     background-color: #1a1a1a;
     cursor: pointer;
     transition: border-color 0.25s;
+
     :hover {
       border-color: #646cff;
     }
+
     :focus,
     :focus-visible {
       outline: 4px auto -webkit-focus-ring-color;
@@ -135,9 +145,11 @@ body {
 .Undefined h1 {
   padding-top: 50px;
   font-size: 80px;
+
   @include respond($pc1024) {
     font-size: 70px;
   }
+
   @include respond($mobile767) {
     padding-top: 0px;
     font-size: 50px;
@@ -148,9 +160,11 @@ body {
   margin-top: 20px;
   font-size: 50px;
   margin-bottom: -25px;
+
   @include respond($pc1024) {
     font-size: 36px;
   }
+
   @include respond($mobile767) {
     font-size: 30px;
   }
@@ -186,31 +200,43 @@ h2 span {
 /** 다크 모드 시 적용할 되는 CSS */
 .Dark {
   background: url("https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/bakcground_dark.jpg");
-  h1, h2, h3, a, p, .tech_skill {
+
+  h1,
+  h2,
+  h3,
+  a,
+  p,
+  .tech_skill {
     color: #fff;
     transition: .5s;
   }
+
   .Nav_text {
     :hover {
       opacity: .5;
     }
   }
+
   .About_box_behind {
     --tw-bg-opacity: 1;
     background-color: rgb(100 116 139 / var(--tw-bg-opacity));
   }
+
   .About_box,
   .introduce_box {
     --tw-bg-opacity: 1;
-      background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+    background-color: rgb(30 41 59 / var(--tw-bg-opacity));
   }
+
   #toggleDarkMode {
     --tw-bg-opacity: 1;
     background-color: rgb(30 41 59 / var(--tw-bg-opacity));
   }
+
   .Light_button {
     display: none;
   }
+
   .Dark_button {
     display: block;
   }
@@ -218,23 +244,23 @@ h2 span {
 
 /** tailwind css @apply 적용 */
 .Nav_Github_button {
-  @apply flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white
+  @apply flex text-sm rounded-full focus: outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white
 }
 
 .section_box {
-  @apply purple_box inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-blue-600
+  @apply purple_box inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus: outline-none hover:bg-blue-600
 }
 
 .introduce_MainBox {
-  @apply introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl transition
+  @apply introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover: scale-105 hover:shadow-2xl transition
 }
 
 .introduce_text {
-  @apply hidden md:inline-block pb-2 md:pb-0
+  @apply hidden md: inline-block pb-2 md:pb-0
 }
 
 .introduce_BlueBox {
-  @apply Blue_box inline-flex py-1 px-3 text-base focus:outline-none
+  @apply Blue_box inline-flex py-1 px-3 text-base focus: outline-none
 }
 
 .introduce_smallBox {
@@ -246,9 +272,11 @@ h2 span {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
