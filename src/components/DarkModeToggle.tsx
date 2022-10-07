@@ -1,25 +1,24 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function DarkModeToggle() {
-    const [count, setCount] = React.useState<number>(0)
+    const [count, setCount] = React.useState<boolean>(true)
 
-    function Click() {
-        setCount((prevCount) => prevCount + 1)
-        const clickEvent = document.getElementById('toggleDarkMode') as HTMLElement;
-
-        clickEvent.addEventListener('click', () => {
-            if (count % 2 == 0) {
-                document.body.classList.add('Dark');
-            }
-            else {
-                document.body.classList.remove('Dark');
-            }
-        });
-    }
+    useEffect(() => {
+        if (count == true) {
+            document.body.classList.remove('Dark');
+        }
+        else {
+            document.body.classList.add('Dark');
+        }
+    }, [count])
 
     return (
         <>
-            <button id="toggleDarkMode" className="px-6 py-3 rounded-lg z-10 bg-slate-100 hover:opacity-50 transition-all duration-150" onClick={Click}>
+            <button
+                id="toggleDarkMode"
+                className="px-6 py-3 rounded-lg z-10 bg-slate-100 hover:opacity-50 transition-all duration-150"
+                onClick={() => setCount(!count)}
+            >
                 {/* Light */}
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="Light_button w-6 h-6 toggle-icon">
                     <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" className="stroke-blue-400 dark:stroke-blue-500"></path>
