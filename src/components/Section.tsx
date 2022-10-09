@@ -8,9 +8,11 @@ function Section() {
     function introduce() {
         navigate('/introduce')
     }
+
     function About() {
         navigate('/About')
     }
+
     return (
         <section className="text-gray-700 body-font">
             <div className="container mx-auto flex px-5 py-14 md:py-28 flex-col lg:flex-row items-center">

@@ -1,4 +1,3 @@
-import React from 'react'
 import Animation from './Animation'
 
 function Undefined() {
