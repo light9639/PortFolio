@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 
 function DarkModeToggle() {
     const [count, setCount] = React.useState<boolean>(true)
