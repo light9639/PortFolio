@@ -1,8 +1,7 @@
-import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import DarkModeToggle from './components/DarkModeToggle';
-import Footer from './components/footer';
+import Footer from "./components/Footer";
 import Introduce from './components/Introduce';
 import Nav from "./components/Nav";
 import Section from './components/Section';
@@ -26,7 +25,6 @@ function App() {
 
       <Footer />
     </div>
-
   )
 }
 

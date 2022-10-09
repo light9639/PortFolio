@@ -57,8 +57,16 @@ function About() {
                                         <span className='font-semibold'>React</span>
                                     </a>
                                     <a>
+                                        <img className='m-4 rounded-md' src="https://camo.githubusercontent.com/7b7f04b16cc2d2d4a32985710e4d640985337a32bbb1e60cdacede2c8a4ae57b/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656475782e737667" alt="Redux" width="50" height="50" />
+                                        <span className='font-semibold'>Redux</span>
+                                    </a>
+                                    <a>
                                         <img className='m-4 rounded-md' src="https://raw.githubusercontent.com/light9639/light9639/main/Icon%20Img/Next.js.png" alt="react" width="50" height="50" />
                                         <span className='font-semibold'>Next.js</span>
+                                    </a>
+                                    <a>
+                                        <img className='m-4 rounded-md' src="https://camo.githubusercontent.com/b6f36ebebc3f53a13d962534b4433b6b5222006c79071322b5e6d6cc0f9e876d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f7675656a732f7675656a732d69636f6e2e737667" alt="Vue" width="50" height="50" />
+                                        <span className='font-semibold'>Vue</span>
                                     </a>
                                     <a>
                                         <img className='m-4 rounded-md' src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50" />

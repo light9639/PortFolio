@@ -1,6 +1,6 @@
 import React from 'react'
 
-function footer() {
+function Footer() {
     return (
         <>
             <footer className="text-gray-600 border-t body-font">
@@ -26,4 +26,4 @@ function footer() {
     )
 }
 
-export default footer
+export default Footer
