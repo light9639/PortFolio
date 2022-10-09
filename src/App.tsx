@@ -1,17 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import DarkModeToggle from './components/DarkModeToggle';
-import Footer from "./components/Footer";
 import Introduce from './components/Introduce';
-import Nav from "./components/Nav";
 import Section from './components/Section';
 import Undefined from './components/Undefined';
 
 function App() {
   return (
     <div className="App">
-
-      <Nav />
 
       <div className='pt-16 pb-32'>
         <Routes>
@@ -23,7 +19,6 @@ function App() {
         </Routes>
       </div>
 
-      <Footer />
     </div>
   )
 }
