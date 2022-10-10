@@ -67,6 +67,10 @@ function About() {
                                         <span className='font-semibold'>Vue</span>
                                     </a>
                                     <a>
+                                        <img className='m-4' src="https://raw.githubusercontent.com/light9639/light9639/main/Icon%20Img/Vuex.png" alt="Vuex" width="50" height="50" />
+                                        <span className='font-semibold'>Vuex</span>
+                                    </a>
+                                    <a>
                                         <img className='m-4 rounded-md' src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50" />
                                         <span className='font-semibold'>Git</span>
                                     </a>

@@ -71,7 +71,7 @@ let data = [
         contents: 'FullPage, Swiper 라이브러리를 이용하여 만든 넷플릭스 리뉴얼 사이트입니다.',
         time: '2021.02.12 ~ 2021.03.15',
         href1: 'https://github.com/light9639/Netflix',
-        href2: 'https://light9639.github.io/Netflix',
+        href2: 'https://light9639.github.io/Netflix/',
         use1: 'Html',
         use2: 'Scss',
         use3: 'JavaScript'
