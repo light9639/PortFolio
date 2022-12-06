@@ -1,17 +1,8 @@
-import React from 'react'
 import MainAnimation from './MainAnimation'
 import { useNavigate } from 'react-router';
 
 function Section() {
     let navigate = useNavigate();
-
-    function introduce() {
-        navigate('/introduce')
-    }
-
-    function About() {
-        navigate('/About')
-    }
 
     return (
         <section className="text-gray-700 body-font">
@@ -24,12 +15,22 @@ function Section() {
                     <p className="mb-8 leading-relaxed text-lg lg:text-xl mt-3">저는 웹 프론트엔드 개발분야에 <br className='block sm:hidden' />취업을 준비중인 이동호 입니다.
                         <br />React, Express, Typescript 등 <br className='block sm:hidden' />웹개발에 필요한 기술에 관심이 많습니다.</p>
                     <div className="flex justify-center">
-                        <button className="section_box mr-3" onClick={About}>About Me</button>
-                        <button className="section_box" onClick={introduce}>프로젝트 보러가기</button>
+                        <button
+                            type='button'
+                            className="section_box mr-3"
+                            onClick={() => {navigate('/About')}}
+                        >About Me</button>
+                        <button
+                            type='button'
+                            className="section_box"
+                            onClick={() => {navigate('/introduce')}}
+                        >프로젝트 보러가기</button>
                     </div>
                 </div>
                 <div className="w-5/6 lg:w-full lg:max-w-lg">
+
                     <MainAnimation />
+                    
                 </div>
             </div>
         </section>

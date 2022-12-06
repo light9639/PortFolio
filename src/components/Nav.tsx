@@ -17,7 +17,9 @@ function Nav() {
                         <Link to="/About">{<span className="Nav_text mr-5">소개</span>}</Link>
                         <Link to="/introduce">{<span className="Nav_text mr-5">프로젝트</span>}</Link>
                         <a href="https://open.kakao.com/o/s6c0Jpxe" className="Nav_text mr-5">연락하기</a>
+
                         <DarkModeToggle></DarkModeToggle>
+                        
                         <div className="ml-3 relative">
                             <a href='https://github.com/light9639'>
                                 <button type="button" className="Nav_Github_button" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
