@@ -243,30 +243,28 @@ h2 span {
 }
 
 /** tailwind css @apply 적용 */
-@layer components{
-  .Nav_Github_button {
-    @apply flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white
-  }
+.Nav_Github_button {
+  @apply flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white
+}
 
-  .section_box {
-    @apply purple_box inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-blue-600
-  }
+.section_box {
+  @apply purple_box inline-flex text-white bg-blue-500 border-0 py-2 px-6 rounded text-lg focus:outline-none hover:bg-blue-600
+}
 
-  .introduce_MainBox {
-    @apply introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl transition
-  }
+.introduce_MainBox {
+  @apply introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl transition
+}
 
-  .introduce_text {
-    @apply hidden md:inline-block pb-2 md:pb-0
-  }
+.introduce_text {
+  @apply hidden md:inline-block pb-2 md:pb-0
+}
 
-  .introduce_BlueBox {
-    @apply Blue_box inline-flex py-1 px-3 text-base focus:outline-none
-  }
+.introduce_BlueBox {
+  @apply Blue_box inline-flex py-1 px-3 text-base focus:outline-none
+}
 
-  .introduce_smallBox {
-    @apply red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white
-  }
+.introduce_smallBox {
+  @apply red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white
 }
 
 @media (prefers-color-scheme: light) {
