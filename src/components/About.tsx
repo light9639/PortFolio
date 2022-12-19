@@ -1,5 +1,3 @@
-import Face from '../img/Face.png'
-
 function About() {
     return (
         <>
@@ -10,7 +8,7 @@ function About() {
                         <div className="max-w-xl mx-auto text-center">
                             <div>
                                 <h1 className="text-3xl font-extrabold pb-10"><span className="text_gradient">About Me</span></h1>
-
+                                <img src="" alt="" />
                                 <p className='pb-2'><span className='text-2xl'>📝</span> 이름 : 이동호</p>
                                 <p className='pb-2'><span className='text-2xl'>📆</span> 생년월일 : 1996년 02월 19일</p>
                                 <p className='pb-2'><span className='text-2xl'>🏠</span> 주소 : 서울특별시 양천구 거주</p>
@@ -83,7 +81,7 @@ function About() {
                                 <h2 className="text-3xl font-extrabold pb-4"><span className="text_gradient">PDF Link</span></h2>
                                 <p className='mb-7 text-base'>포트폴리오 소개를 일러스트로 편집하여 만든<br />
                                     PDF 파일 링크 입니다.</p>
-                                <a href="https://drive.google.com/file/d/1DAhdA51cf98S9FyJLee69akXDXVfHg2M/view?usp=share_link">
+                                <a href="https://drive.google.com/file/d/1OXYfrVdTLmlAT5AlEjNey3lFRs0_67-Q/view?usp=sharing">
                                     <span className='Blue_box px-4 py-3 rounded-md text-white text-xl sm:text-2xl'>포트폴리오 PDF 링크</span>
                                 </a>
                             </div>
