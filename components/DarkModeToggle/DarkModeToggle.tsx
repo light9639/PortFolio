@@ -3,6 +3,16 @@ import React, { useEffect } from 'react'
 export default function DarkModeToggle(): JSX.Element {
     const [count, setCount] = React.useState<boolean>(true)
 
+    // let localStore = count
+    // localStorage.setItem('data', JSON.stringify(localStore))
+    // let obj = localStorage.getItem('data')
+    // obj = JSON.parse(obj)
+    // obj.push(count)
+
+    // obj = new Set(obj)
+    // obj = Array.from(obj)
+    // objStorage.setItem('data', JSON.stringify(obj))
+
     useEffect(() => {
         if ( localStorage.getItem('color-theme') == 'Dark' ) {
             setCount(false);
