@@ -9,7 +9,7 @@ export default function Introduce(): JSX.Element {
     let [list, setList] = useState<IntroduceType[]>([]);
 
     const result = useQuery(['Query'], () =>
-        axios.get('../data/data.json')
+        axios.get('https://raw.githubusercontent.com/light9639/PortFolio/master/data/data.json')
             .then((res) => { return setList(res.data) })
     )
 
