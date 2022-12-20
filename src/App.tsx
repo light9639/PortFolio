@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import About from './components/About';
-import DarkModeToggle from './components/DarkModeToggle';
-import Introduce from './components/Introduce';
-import Section from './components/Section';
-import Undefined from './components/Undefined';
+import About from '../components/About/About';
+import DarkModeToggle from '../components/DarkModeToggle/DarkModeToggle';
+import Introduce from '../components/Introduce/Introduce';
+import Section from '../components/Section/Section';
+import Undefined from '../components/Undefined/Undefined';
 
 function App() {
   return (

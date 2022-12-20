@@ -6,9 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "npx eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier src --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix && npm run lint:fix"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.20.4",
+    "axios": "^1.2.1",
     "lottie-web": "^5.9.6",
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
@@ -17,7 +24,8 @@
     "react-lottie-player": "^1.4.3",
     "react-router-dom": "^6.3.0",
     "sass": "^1.56.1",
-    "tailwindcss": "^3.1.6"
+    "tailwindcss": "^3.1.6",
+    "vite-tsconfig-paths": "^4.0.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",

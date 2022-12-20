@@ -1,15 +1,15 @@
-import Face from '../img/Face.png'
+import React from 'react'
 
-function About() {
+export default function About(): JSX.Element {
     return (
-        <>
+        <React.Fragment>
             <div className='pt-16'>
                 <div className="relative py-3 sm:max-w-3xl sm:mx-auto">
                     <div className="About_box_behind absolute inset-0 bg-blue-400 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
                     <div className="About_box relative px-4 py-20 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                         <div className="max-w-xl mx-auto text-center">
                             <div>
-                                <h1 className="text-3xl font-extrabold pb-10"><span className="text_gradient">About Me</span></h1>
+                                <h1 className="text-3xl font-extrabold pb-10"><span className="text_gradient2">About Me</span></h1>
 
                                 <p className='pb-2'><span className='text-2xl'>📝</span> 이름 : 이동호</p>
                                 <p className='pb-2'><span className='text-2xl'>📆</span> 생년월일 : 1996년 02월 19일</p>
@@ -26,7 +26,7 @@ function About() {
                             </div>
                             <hr className="border-gray-300" />
                             <div className="py-5">
-                                <h2 className="text-3xl font-extrabold pb-4"><span className="text_gradient">Skills</span></h2>
+                                <h2 className="text-3xl font-extrabold pb-4"><span className="text_gradient2">Skills</span></h2>
                                 <div className='flex flex-wrap mx-auto'>
                                     <a>
                                         <img className='m-4 rounded-md' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50" />
@@ -80,7 +80,7 @@ function About() {
                             </div>
                             <hr className="border-gray-300" />
                             <div className='pt-10 sm:pt-10'>
-                                <h2 className="text-3xl font-extrabold pb-4"><span className="text_gradient">PDF Link</span></h2>
+                                <h2 className="text-3xl font-extrabold pb-4"><span className="text_gradient2">PDF Link</span></h2>
                                 <p className='mb-7 text-base'>포트폴리오 소개를 일러스트로 편집하여 만든<br />
                                     PDF 파일 링크 입니다.</p>
                                 <a href="https://drive.google.com/file/d/1DAhdA51cf98S9FyJLee69akXDXVfHg2M/view?usp=share_link">
@@ -91,8 +91,6 @@ function About() {
                     </div>
                 </div>
             </div>
-        </>
+        </React.Fragment>
     )
 }
-
-export default About

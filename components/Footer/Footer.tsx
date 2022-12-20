@@ -1,11 +1,12 @@
-function Footer() {
+import React from "react";
+
+export default function Footer(): JSX.Element {
     return (
-        <>
+        <React.Fragment>
             <footer className="text-gray-600 border-t body-font">
                 <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
                     <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start" href="#void">
-                        <span className="text_gradient ml-3 text-xl">이동호 포트폴리오
-                        </span>
+                        <span className="text_gradient2">이동호 포트폴리오</span>
                     </a>
                     <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">© 2022 이동호 —
                         <a className="ml-1 text-gray-600" href="#void">@Light9639</a>
@@ -20,8 +21,6 @@ function Footer() {
                     </span>
                 </div>
             </footer>
-        </>
+        </React.Fragment>
     )
 }
-
-export default Footer

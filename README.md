@@ -30,6 +30,9 @@ yarn dev
 - Component로 페이지를 분리시켰으며, `Nav`, `Footer`로 분리하여 작성하였습니다.
 - react-router-dom의 `Link`, `Route`를 사용하여 작성된 `Component`를 불러올 수 있습니다.
 
+### :zap: React-Query
+- React-Query를 이용하여 소개페이지를 자료를 가져와 사용하였습니다.
+
 ### :zap: TypeScript
 - 타입스크립트를 이용하여 타입을 지정함으로써 오류의 가능성을 줄였습니다.
 
