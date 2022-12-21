@@ -18,7 +18,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/** body 속 여러 요소들 설정 */
+/* body 속 여러 요소들 설정 */
 body {
   margin: 0;
   padding: 0;
