@@ -1,5 +1,5 @@
 import React from 'react';
-import Animation from '../Animation/Animation'
+import Animation from '@components/Animation/Animation'
 import { useNavigate } from 'react-router-dom';
 
 export default function Undefined(): JSX.Element {

@@ -1,9 +1,9 @@
 // import list from "";
 import axios from "axios";
-import { IntroduceType } from "../../src/Type/TypeBox";
+import { IntroduceType } from "@src/Type/TypeBox";
 import { useQuery } from '@tanstack/react-query'
 import React, { useState } from "react";
-import Loading from '../Loading/Loading';
+import Loading from '@components/Loading/Loading';
 
 export default function Introduce(): JSX.Element {
     let [list, setList] = useState<IntroduceType[]>([]);

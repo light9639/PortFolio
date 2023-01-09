@@ -3,6 +3,7 @@ export interface IntroduceType {
     title: string;
     contents: string;
     time: string;
+    time2: string;
     href1: string;
     href2: string;
     use1: string;

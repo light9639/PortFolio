@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie-player'
-import CodingBoy from '../../src/animation/coding-boy.json'
+import CodingBoy from '@src/animation/coding-boy.json'
 import React from 'react'
 
 export default function MainAnimation(): JSX.Element {

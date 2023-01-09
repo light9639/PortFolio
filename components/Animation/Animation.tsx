@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie-player'
-import animationData from '../../src/animation/404.json'
+import animationData from '@src/animation/404.json'
 import React from 'react';
 
 export default function Animation(): JSX.Element {

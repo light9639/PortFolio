@@ -1,4 +1,4 @@
-import MainAnimation from '../MainAnimation/MainAnimation'
+import MainAnimation from '@components/MainAnimation/MainAnimation'
 import { useNavigate } from 'react-router';
 
 export default function Section(): JSX.Element {
