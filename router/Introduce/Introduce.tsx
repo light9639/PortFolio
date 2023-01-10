@@ -15,7 +15,7 @@ export default function Introduce(): JSX.Element {
 
     return (
         <React.Fragment>
-            <h2 className="mt-10 text-3xl font-bold text-center sm:text-4xl">작성된 프로젝트 <span className="text_gradient2">8개</span></h2>
+            <h2 className="mt-10 text-3xl font-bold text-center sm:text-4xl">작성된 프로젝트 <span className="text_gradient2">{list.length}개</span></h2>
             <div className="flex flex-wrap -m-3 dark:bg-slate-900 mt-10 max-w-5xl mx-auto">
                 <React.Fragment>
                     {
