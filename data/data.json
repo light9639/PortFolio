@@ -48,6 +48,18 @@
         "use3": "TypeScript"
     },
     {
+        "url": "https://user-images.githubusercontent.com/95972251/211576884-7236ebd8-4c19-400b-a0e2-4328de089003.png",
+        "title": "Vue Calculator",
+        "contents": "Vue의 Composition API를 이용하여 만든 계산기입니다.",
+        "time": "2023.01.10 ~ 2023.01.10",
+        "time2": "",
+        "href1": "https://github.com/light9639/Vue-Calculator",
+        "href2": "https://light9639.github.io/Vue-Calculator/",
+        "use1": "Vue",
+        "use2": "Vite",
+        "use3": "Composition API"
+    },
+    {
         "url": "https://light9639.github.io/BookSaTong/img/mainBanner_01.jpg",
         "title": "북새통문고",
         "contents": "북새통문고 사이트를 리뉴얼하여 만든 콘텐츠 플랫폼 사이트입니다.",
