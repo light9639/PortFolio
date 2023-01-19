@@ -29,7 +29,7 @@
         "contents": "React를 이용하여 만든 계산기입니다.",
         "time": "2022.08.20 ~ 2022.08.22",
         "time2": "",
-        "href1": "https://github.com/light9639/Calculator/tree/master",
+        "href1": "https://github.com/light9639/Calculator/",
         "href2": "https://light9639.github.io/Calculator/",
         "use1": "React",
         "use2": "Vite",
@@ -41,7 +41,7 @@
         "contents": "React를 이용하여 만든 TodoList입니다.",
         "time": "2022.08.25 ~ 2022.08.30",
         "time2": "",
-        "href1": "https://github.com/light9639/TodoList/tree/master",
+        "href1": "https://github.com/light9639/TodoList/",
         "href2": "https://light9639.github.io/TodoList/",
         "use1": "React",
         "use2": "Vite",
@@ -58,6 +58,18 @@
         "use1": "Vue",
         "use2": "Vite",
         "use3": "Composition API"
+    },
+    {
+        "url": "https://user-images.githubusercontent.com/95972251/213357072-8863159d-b54d-41a5-8227-871f9d6bb334.png",
+        "title": "Vuex TodoList",
+        "contents": "Vuex 상태관리 라이브러리를 이용하여 만든 TodoList입니다.",
+        "time": "2023.01.18 ~ 2023.01.19",
+        "time2": "",
+        "href1": "https://github.com/light9639/Vuex-TodoList",
+        "href2": "https://light9639.github.io/Vuex-TodoList/",
+        "use1": "Vue",
+        "use2": "Vite",
+        "use3": "Vuex"
     },
     {
         "url": "https://light9639.github.io/BookSaTong/img/mainBanner_01.jpg",
