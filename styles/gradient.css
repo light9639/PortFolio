@@ -22,6 +22,14 @@
     border-radius: 5px !important;
 }
 
+.WebKit {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical !important;
+}
+
 .purple_box {
     background: linear-gradient(45deg, #bd34fe, #53baff);
 }

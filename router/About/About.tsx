@@ -10,7 +10,6 @@ export default function About(): JSX.Element {
                         <div className="max-w-xl mx-auto text-center">
                             <div>
                                 <h1 className="text-3xl font-extrabold pb-10"><span className="text_gradient2">About Me</span></h1>
-
                                 <p className='pb-2'><span className='text-2xl'>📝</span> 이름 : 이동호</p>
                                 <p className='pb-2'><span className='text-2xl'>📆</span> 생년월일 : 1996년 02월 19일</p>
                                 <p className='pb-2'><span className='text-2xl'>🏠</span> 주소 : 서울특별시 양천구 거주</p>
@@ -27,55 +26,55 @@ export default function About(): JSX.Element {
                             <hr className="border-gray-300" />
                             <div className="py-5">
                                 <h2 className="text-3xl font-extrabold pb-4"><span className="text_gradient2">Skills</span></h2>
-                                <div className='flex flex-wrap mx-auto'>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50" />
+                                <div className='flex flex-wrap max-w-full items-end'>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50" />
                                         <span className='font-semibold'>Html5</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50" />
                                         <span className='font-semibold'>Css3</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="50" height="50" />
                                         <span className='font-semibold'>Scss</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50" />
                                         <span className='font-semibold'>Javascript</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg" alt="jQuery" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg" alt="jQuery" width="50" height="50" />
                                         <span className='font-semibold'>Jquery</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescriptlang" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescriptlang" width="50" height="50" />
                                         <span className='font-semibold'>TypeScript</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="react" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="react" width="50" height="50" />
                                         <span className='font-semibold'>React</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://camo.githubusercontent.com/7b7f04b16cc2d2d4a32985710e4d640985337a32bbb1e60cdacede2c8a4ae57b/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656475782e737667" alt="Redux" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://camo.githubusercontent.com/7b7f04b16cc2d2d4a32985710e4d640985337a32bbb1e60cdacede2c8a4ae57b/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656475782e737667" alt="Redux" width="50" height="50" />
                                         <span className='font-semibold'>Redux</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://raw.githubusercontent.com/light9639/light9639/main/Icon%20Img/Next.js.png" alt="react" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://raw.githubusercontent.com/light9639/light9639/main/Icon%20Img/Next.js.png" alt="react" width="50" height="50" />
                                         <span className='font-semibold'>Next.js</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://camo.githubusercontent.com/b6f36ebebc3f53a13d962534b4433b6b5222006c79071322b5e6d6cc0f9e876d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f7675656a732f7675656a732d69636f6e2e737667" alt="Vue" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://camo.githubusercontent.com/b6f36ebebc3f53a13d962534b4433b6b5222006c79071322b5e6d6cc0f9e876d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f7675656a732f7675656a732d69636f6e2e737667" alt="Vue" width="50" height="50" />
                                         <span className='font-semibold'>Vue</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4' src="https://raw.githubusercontent.com/light9639/light9639/main/Icon%20Img/Vuex.png" alt="Vuex" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='m-3 p-0.5' src="https://raw.githubusercontent.com/light9639/light9639/main/Icon%20Img/Vuex.png" alt="Vuex" width="50" height="50" />
                                         <span className='font-semibold'>Vuex</span>
-                                    </a>
-                                    <a>
-                                        <img className='m-4 rounded-md' src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50" />
+                                    </div>
+                                    <div className='w-1/4 sm:w-1/5 md:w-[14%] flex flex-col items-center'>
+                                        <img className='rounded-md m-3' src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50" />
                                         <span className='font-semibold'>Git</span>
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
                             <hr className="border-gray-300" />

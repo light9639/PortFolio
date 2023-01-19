@@ -13,7 +13,7 @@ export default function Nav(): JSX.Element {
                             <span className="text_gradient ml-3 text-xl">My Project</span>
                         </a>
                     </Link>
-                    <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                    <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center gap-3 md:gap-0">
                         <Link to="/">{<span className="Nav_text mr-5">홈</span>}</Link>
                         <Link to="/About">{<span className="Nav_text mr-5">소개</span>}</Link>
                         <Link to="/Site">{<span className="Nav_text mr-5">사이트</span>}</Link>
