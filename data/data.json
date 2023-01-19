@@ -60,7 +60,7 @@
         "use3": "Composition API"
     },
     {
-        "url": "https://user-images.githubusercontent.com/95972251/213357072-8863159d-b54d-41a5-8227-871f9d6bb334.png",
+        "url": "https://user-images.githubusercontent.com/95972251/213455952-06bd0e3b-a0c5-407b-9af3-a4d2a8bfb608.png",
         "title": "Vuex TodoList",
         "contents": "Vuex 상태관리 라이브러리를 이용하여 만든 TodoList입니다.",
         "time": "2023.01.18 ~ 2023.01.19",
