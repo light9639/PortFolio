@@ -22,6 +22,11 @@ export default function Section(): JSX.Element {
                         >About Me</button>
                         <button
                             type='button'
+                            className="Blue_box inline-flex py-2.5 px-5 text-base focus:outline-none border-none hover:opacity-75 transition mr-3"
+                            onClick={() => {navigate('/Site')}}
+                        >사이트 모음</button>
+                        <button
+                            type='button'
                             className="Blue_box inline-flex py-2.5 px-5 text-base focus:outline-none border-none hover:opacity-75 transition"
                             onClick={() => {navigate('/introduce')}}
                         >프로젝트 보러가기</button>

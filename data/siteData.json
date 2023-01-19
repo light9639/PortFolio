@@ -1,0 +1,14 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/github.com_light9639.png",
+        "title": "Light9639's Github",
+        "contents": "Github 사이트입니다.",
+        "href": "https://github.com/light9639"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/light9639.tistory.com.png",
+        "title": "Light9639's Blog",
+        "contents": "티스토리로 만든 블로그입니다.",
+        "href": "https://light9639.tistory.com/"
+    }
+]

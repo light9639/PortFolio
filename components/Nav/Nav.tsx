@@ -16,6 +16,7 @@ export default function Nav(): JSX.Element {
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                         <Link to="/">{<span className="Nav_text mr-5">홈</span>}</Link>
                         <Link to="/About">{<span className="Nav_text mr-5">소개</span>}</Link>
+                        <Link to="/Site">{<span className="Nav_text mr-5">사이트</span>}</Link>
                         <Link to="/introduce">{<span className="Nav_text mr-5">프로젝트</span>}</Link>
                         <a href="https://open.kakao.com/o/s6c0Jpxe" className="Nav_text mr-5">연락하기</a>
 
