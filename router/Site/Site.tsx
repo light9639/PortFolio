@@ -32,9 +32,9 @@ export default function Site(): JSX.Element {
                                             </div>
                                             <a
                                                 href={item.href}
-                                                className="border-t border-grey-light pt-5 text-1xl text-grey hover:text-red no-underline tracking-wide"
+                                                className="border-t border-grey-light pt-7 pb-3 text-1xl text-grey hover:text-red no-underline tracking-wide"
                                             >
-                                                <span className="hidden md:inline-block pb-2 md:pb-0">Github 바로가기 :</span> <span className="Blue_box inline-flex py-1 px-3 text-base focus:outline-none">Github 페이지로 이동</span>
+                                                <span className="Blue_box px-4 py-3 rounded-md text-white text-xl line-clamp-1">{item.title}로 이동</span>
                                             </a>
                                         </div>
                                     </div>
