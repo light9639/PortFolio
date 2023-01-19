@@ -10,3 +10,10 @@ export interface IntroduceType {
     use2: string;
     use3: string;
 }
+
+export interface SiteType {
+    url: string;
+    title: string;
+    contents: string;
+    href: string;
+}
