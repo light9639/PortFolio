@@ -8,7 +8,8 @@
 .Dark h3,
 .Dark a,
 .Dark p,
-.Dark .tech_skill {
+.Dark .tech_skill,
+.Dark span {
     color: #fff;
     -webkit-transition: 0.5s;
     transition: 0.5s;

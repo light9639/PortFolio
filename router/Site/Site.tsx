@@ -28,13 +28,13 @@ export default function Site(): JSX.Element {
                                         <div className="p-4 flex-1 flex flex-col">
                                             <h3 className="font-semibold mb-4 text-2xl">{item.title}</h3>
                                             <div className="mb-4 text-grey-darker text-base flex-1">
-                                                <p>{item.contents} </p>
+                                                <p>{item.contents}</p>
                                             </div>
                                             <a
                                                 href={item.href}
                                                 className="border-t border-grey-light pt-7 pb-3 text-1xl text-grey hover:text-red no-underline tracking-wide"
                                             >
-                                                <span className="Blue_box px-4 py-3 rounded-md text-white text-lg line-clamp-1">{item.title}로 이동</span>
+                                                <span className="Blue_box px-4 py-3 rounded-md text-white text-base md:text-lg line-clamp-1">{item.title}로 이동</span>
                                             </a>
                                         </div>
                                     </div>

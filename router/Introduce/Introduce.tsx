@@ -41,17 +41,17 @@ export default function Introduce(): JSX.Element {
                                                 href={item.href1}
                                                 className="border-t border-grey-light pt-5 text-1xl text-grey hover:text-red no-underline tracking-wide"
                                             >
-                                                <span className="hidden md:inline-block pb-2 md:pb-0">Github 바로가기 :</span> <span className="Blue_box inline-flex py-1.5 px-3.5 text-base focus:outline-none">Github 페이지로 이동</span>
+                                                <span className="hidden md:inline-block pb-2 md:pb-0">Github 바로가기 : </span> <span className="Blue_box inline-flex py-1.5 px-3.5 text-base focus:outline-none md:ml-1">Github 페이지로 이동</span>
                                             </a>
                                             <a
                                                 href={item.href2}
                                                 className="pt-5 text-1xl text-grey hover:text-red uppercase no-underline tracking-wide"
                                             >
-                                                <span className="hidden md:inline-block pb-2 md:pb-0">프로젝트 바로가기 :</span> <span className="Blue_box inline-flex py-1.5 px-3.5 text-base focus:outline-none">포트폴리오 페이지로 이동</span>
+                                                <span className="hidden md:inline-block pb-2 md:pb-0">프로젝트 바로가기 : </span> <span className="Blue_box inline-flex py-1.5 px-3.5 text-base focus:outline-none md:ml-1">포트폴리오 페이지로 이동</span>
                                             </a>
                                         </div>
                                         <div className="pr-4 py-4 border-t border-grey-light">
-                                            <span className="tech_skill hidden lg:inline-block pr-3 py-1 text-sm font-semiboldmr-2">사용기술 :</span>
+                                            <span className="tech_skill hidden lg:inline-block pr-3 py-1 text-sm font-semibold mr-2">사용기술 :</span>
                                             <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {item.use1}</span>
                                             <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {item.use2}</span>
                                             <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white"># {item.use3}</span>
