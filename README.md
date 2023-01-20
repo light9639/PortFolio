@@ -1,8 +1,8 @@
 # :zap: PortFolio 프로젝트 소개
 :octocat: 바로가기 https://light9639-portfolio.netlify.app/
 
-![화면 캡처 2022-08-22](https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/light9639.github.io_PortFolio_.png)
-![화면 캡처 2022-08-27](https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/light9639.github.io_PortFolio_Dark.png)
+![light9639-portfolio netlify app_ (1)](https://user-images.githubusercontent.com/95972251/213460231-df5ff1eb-e6a5-4883-ab61-835654fa1a8a.png)
+![light9639-portfolio netlify app_](https://user-images.githubusercontent.com/95972251/213460248-982f04da-775f-4ff4-ac04-37c439c878da.png)
 
 :sparkles: 포트폴리오 소개 사이트입니다. :sparkles:
 
