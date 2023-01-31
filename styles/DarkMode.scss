@@ -1,0 +1,68 @@
+/* 다크 모드 시 적용할 되는 CSS */
+.Dark {
+    background: url("https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/bakcground_dark.jpg");
+
+    h1,
+    h2,
+    h3,
+    a,
+    p,
+    .tech_skill,
+    span {
+        color: #fff;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .Nav_text :hover {
+        opacity: 0.5;
+    }
+
+    .About_box_behind {
+        --tw-bg-opacity: 1;
+        background-color: rgb(100 116 139/var(--tw-bg-opacity));
+    }
+
+    .About_box,
+    .introduce_box {
+        --tw-bg-opacity: 1;
+        background-color: rgb(30 41 59/var(--tw-bg-opacity));
+    }
+
+    #toggleDarkMode {
+        --tw-bg-opacity: 1;
+        background-color: rgb(30 41 59/var(--tw-bg-opacity));
+        border: none;
+    }
+
+    .Light_button {
+        display: none;
+    }
+
+    .Dark_button {
+        display: block;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        -webkit-animation: logo-spin infinite 20s linear;
+        animation: logo-spin infinite 20s linear;
+    }
+}
