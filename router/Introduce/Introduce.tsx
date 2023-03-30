@@ -22,19 +22,19 @@ export default function Introduce(): JSX.Element {
                         list.map(function (item: IntroduceType, idx: number) {
                             return (
                                 <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx}>
-                                    <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl transition">
+                                    <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-2xl duration-500">
                                         <div
                                             className="bg-cover h-80"
                                             style={{ backgroundImage: "url(" + item.url + ")", backgroundSize: "cover", backgroundPosition: "center" }}
                                         ></div>
-                                        <div className="p-4 flex-1 flex flex-col">
+                                        <div className="p-4 flex flex-col">
                                             <h3 className="font-semibold mb-4 text-2xl">{item.title}</h3>
-                                            <div className="mb-4 text-grey-darker text-base flex-1">
+                                            <div className="mb-4 text-grey-darker text-base">
                                                 <p>{item.contents} </p>
                                             </div>
-                                            <div className="border-t border-grey-light pt-5 mb-4 text-grey-darker text-base flex-1">
+                                            <div className="border-t border-grey-light pt-4 mb-4 text-grey-darker text-base">
                                                 <p>
-                                                    <span className="hidden md:inline-block pb-2 md:pb-0">기간/인원 :</span> <span className="text_gradient">{item.time}</span> <br className={`${item.time2 ? "block" : "hidden"}`} /> <span className={`${item.time2 ? "inline-block" : "hidden"} text_gradient`}>{item.time2}</span> / <span className="font-medium">1인 개발</span> 
+                                                    <span className="hidden md:inline-block pb-2 md:pb-0">기간/인원 :</span> <span className="text_gradient2">{item.time}</span> <br className={`${item.time2 ? "block" : "hidden"}`} /> <span className={`${item.time2 ? "inline-block" : "hidden"} text_gradient2`}>{item.time2}</span> / <span className="font-medium">1인 개발</span>
                                                 </p>
                                             </div>
                                             <a
@@ -51,10 +51,10 @@ export default function Introduce(): JSX.Element {
                                             </a>
                                         </div>
                                         <div className="pr-4 py-4 border-t border-grey-light">
-                                            <span className="tech_skill hidden lg:inline-block pr-3 py-1 text-sm font-semibold mr-2">사용기술 :</span>
-                                            <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {item.use1}</span>
-                                            <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white mr-2"># {item.use2}</span>
-                                            <span className="red_box inline-block rounded-md px-3 py-1 text-sm font-semibold text-white"># {item.use3}</span>
+                                            <span className="tech_skill hidden lg:inline-block pr-3 py-1 text-sm mr-2">사용기술 :</span>
+                                            <span className="tech_skill_box bg-[#dbeafe] inline-block rounded-md px-3 py-1 text-sm font-semibold text-[#118eff] mr-2"># {item.use1}</span>
+                                            <span className="tech_skill_box bg-[#dbeafe] inline-block rounded-md px-3 py-1 text-sm font-semibold text-[#118eff] mr-2"># {item.use2}</span>
+                                            <span className="tech_skill_box bg-[#dbeafe] inline-block rounded-md px-3 py-1 text-sm font-semibold text-[#118eff]"># {item.use3}</span>
                                         </div>
                                     </div>
                                 </div>
