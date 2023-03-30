@@ -17,6 +17,7 @@ export default function About(): JSX.Element {
                                 <p className='pb-2'><span className='text-2xl'>📧</span> 이메일 : dong9639@naver.com</p>
                                 <p className='pb-2'><span className='text-2xl'>🏫</span> 학력 : 방송통신대학교 (경영학과) 졸업</p>
                                 <p className='pb-2'><span className='text-2xl'>🔗</span> 깃허브 페이지 : <a href='https://github.com/light9639'>https://github.com/light9639</a></p>
+                                <p className='pb-2'><span className='text-2xl'>🖇️</span> 티스토리 블로그 : <a href='https://light9639.tistory.com/'>https://light9639.tistory.com/</a></p>
                             </div>
                             <div className='pt-1'>
                                 <p className="mt-5 mb-7">안녕하세요. 저의 포트폴리오 사이트에 방문해주셔서 감사합니다! <br className='hidden md:block' />

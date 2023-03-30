@@ -12,12 +12,13 @@ export default function Undefined(): JSX.Element {
                 <Animation />
 
                 <div className="mx-auto text-center">
-                    <p className="text_gradient2 text-2xl font-semibold md:text-[1.7rem]">Sorry, we couldn't find this page.</p>
-                    <p className="mt-5 mb-8 text-sm md:text-[1.1rem] dark:text-gray-400">But dont worry, you can find plenty of other things on our homepage.</p>
+                    <h2 className="text_gradient2 text-2xl font-semibold md:text-[2rem]">조회된 내용이 없습니다.</h2>
+                    <p className="my-8 text-sm md:text-[1.1rem] dark:text-gray-400">검색어를 확인하시고, 다시 시도해주세요.</p>
                     <button
-                    onClick={() => {navigate("/");}}
-                        className="px-8 py-3 font-semibold rounded Blue_box hover:opacity-75 transition"
-                    >Back to homepage</button>
+                        onClick={() => { navigate("/"); }}
+                        className="px-8 py-3 font-semibold Blue_box hover:opacity-75 transition"
+                        style={{ borderRadius: "25px" }}
+                    >홈으로 이동</button>
                 </div>
             </div>
         </React.Fragment>
