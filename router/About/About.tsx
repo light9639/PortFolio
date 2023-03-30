@@ -92,7 +92,7 @@ export default function About(): JSX.Element {
                                 <p className='mb-7 text-base'>포트폴리오 소개를 일러스트로 편집하여 만든<br />
                                     PDF 파일 링크 입니다.</p>
                                 <a href="https://drive.google.com/file/d/1DAhdA51cf98S9FyJLee69akXDXVfHg2M/view?usp=share_link">
-                                    <span className='Blue_box px-4 py-3 rounded-md text-white text-xl sm:text-2xl'>포트폴리오 PDF 링크</span>
+                                    <span className='Blue_box px-5 py-3 rounded-md text-white text-xl sm:text-2xl'>포트폴리오 PDF 링크</span>
                                 </a>
                             </div>
                         </div>

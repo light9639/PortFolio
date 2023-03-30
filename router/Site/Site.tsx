@@ -20,7 +20,7 @@ export default function Site(): JSX.Element {
                         list.map(function (item, idx: number) {
                             return (
                                 <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx}>
-                                    <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl transition">
+                                    <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl duration-500">
                                         <div
                                             className="bg-cover h-80"
                                             style={{ backgroundImage: "url(" + item.url + ")", backgroundSize: "cover", backgroundPosition: "center" }}
@@ -28,7 +28,7 @@ export default function Site(): JSX.Element {
                                         <div className="p-4 flex-1 flex flex-col">
                                             <h3 className="font-semibold mb-4 text-2xl">{item.title}</h3>
                                             <div className="mb-4 text-grey-darker text-base flex-1">
-                                                <p>{item.contents}</p>
+                                                <p className="px-3 pt-2">{item.contents}</p>
                                             </div>
                                             <a
                                                 href={item.href}
