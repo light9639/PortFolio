@@ -65,17 +65,8 @@ body {
   }
 
   .logo {
-    will-change: filter;
-
-    &:hover {
-      -webkit-filter: drop-shadow(0 0 2em rgba(17, 142, 255, 0.6666666667));
-      filter: drop-shadow(0 0 2em rgba(17, 142, 255, 0.6666666667));
-    }
-
-    .react:hover {
-      -webkit-filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.6666666667));
-      filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.6666666667));
-    }
+    -webkit-filter: drop-shadow(0 0 2em rgba(17, 142, 255, 0.5));
+    filter: drop-shadow(0 0 2em rgba(17, 142, 255, 0.5));
   }
 
   .card {
