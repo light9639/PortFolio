@@ -61,7 +61,7 @@ export default function About(): JSX.Element {
                                         <span className='font-semibold'>Redux</span>
                                     </div>
                                     <div className='w-1/4 sm:w-1/5 md:w-[16%] flex flex-col items-center'>
-                                        <img className='rounded-md m-3' src="https://raw.githubusercontent.com/light9639/light9639/main/Icon%20Img/Next.js.png" alt="react" width="50" height="50" />
+                                        <img className='rounded-md m-3' src="https://raw.githubusercontent.com/light9639/light9639/f5e72f3d4825b02864345ac21d9ce2f62c1afadb/Icon%20Img/next.svg" alt="react" width="50" height="50" />
                                         <span className='font-semibold'>Next.js</span>
                                     </div>
                                     <div className='w-1/4 sm:w-1/5 md:w-[16%] flex flex-col items-center'>
