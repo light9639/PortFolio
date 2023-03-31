@@ -21,10 +21,10 @@ export default function Introduce(): JSX.Element {
                     {
                         list.map(function (item: IntroduceType, idx: number) {
                             return (
-                                <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx}>
+                                <div className="introduce_Wrapper w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx}>
                                     <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-2xl duration-500">
                                         <div
-                                            className="bg-cover h-80"
+                                            className="bg-cover h-80 introduce_img"
                                             style={{ backgroundImage: "url(" + item.url + ")", backgroundSize: "cover", backgroundPosition: "center" }}
                                         ></div>
                                         <div className="p-4 flex flex-col">
