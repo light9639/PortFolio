@@ -130,7 +130,7 @@ body {
     }
   }
 
-  .introduce_Wrapper:last-child .introduce_box .introduce_img {
+  .introduce_Wrapper:nth-child(3) .introduce_box .introduce_img {
     background-position-y: -75px !important;
   }
 }
