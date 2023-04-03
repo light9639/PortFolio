@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function About(): JSX.Element {
+    useEffect(() => {
+        AOS.init();
+    })
+
     return (
         <React.Fragment>
             <div className='pt-16'>
@@ -8,7 +14,7 @@ export default function About(): JSX.Element {
                     <div className="About_box_behind absolute inset-0 bg-blue-400 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
                     <div className="About_box relative px-4 py-20 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                         <div className="max-w-xl mx-auto text-center">
-                            <div>
+                            <div data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">
                                 <h1 className="text-3xl font-extrabold pb-10"><span className="text_gradient2">About Me</span></h1>
                                 <p className='pb-2'><span className='text-2xl'>📝</span> 이름 : 이동호</p>
                                 <p className='pb-2'><span className='text-2xl'>📆</span> 생년월일 : 1996년 02월 19일</p>
@@ -20,14 +26,14 @@ export default function About(): JSX.Element {
                                 <p className='pb-2'><span className='text-2xl'>🖇️</span> 티스토리 블로그 : <a href='https://light9639.tistory.com/'>https://light9639.tistory.com/</a></p>
                             </div>
                             <div className='pt-1'>
-                                <p className="mt-5 mb-7">안녕하세요. 저의 포트폴리오 사이트에 방문해주셔서 감사합니다! <br className='hidden md:block' />
+                                <p className="mt-5 mb-7" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">안녕하세요. 저의 포트폴리오 사이트에 방문해주셔서 감사합니다! <br className='hidden md:block' />
                                     저는 웹 프론트엔드 개발분야에 취업을 준비중인 이동호 입니다. <br className='hidden md:block' />
                                     React, Express, Typescript 등 웹 개발에 필요한 기술에 관심이 많습니다. </p>
                             </div>
                             <hr className="border-gray-300" />
                             <div className="py-5">
                                 <h2 className="text-3xl font-extrabold pb-4"><span className="text_gradient2">Skills</span></h2>
-                                <div className='flex flex-wrap max-w-full items-end'>
+                                <div className='flex flex-wrap max-w-full items-end' data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">
                                     <div className='w-1/4 sm:w-1/5 md:w-[16%] flex flex-col items-center'>
                                         <img className='rounded-md m-3' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50" />
                                         <span className='font-semibold'>Html5</span>
@@ -89,9 +95,9 @@ export default function About(): JSX.Element {
                             <hr className="border-gray-300" />
                             <div className='pt-10 sm:pt-10'>
                                 <h2 className="text-3xl font-extrabold pb-4"><span className="text_gradient2">PDF Link</span></h2>
-                                <p className='mb-7 text-base'>포트폴리오 소개를 일러스트로 편집하여 만든<br />
+                                <p className='mb-7 text-base' data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">포트폴리오 소개를 일러스트로 편집하여 만든<br />
                                     PDF 파일 링크 입니다.</p>
-                                <a href="https://drive.google.com/file/d/1DAhdA51cf98S9FyJLee69akXDXVfHg2M/view?usp=share_link">
+                                <a href="https://drive.google.com/file/d/1DAhdA51cf98S9FyJLee69akXDXVfHg2M/view?usp=share_link" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">
                                     <span className='Blue_box px-5 py-3 rounded-md text-white text-xl sm:text-2xl'>포트폴리오 PDF 링크</span>
                                 </a>
                             </div>

@@ -2,8 +2,10 @@
 import axios from "axios";
 import { IntroduceType } from "@src/Type/TypeBox";
 import { useQuery } from '@tanstack/react-query'
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Loading from '@components/Loading/Loading';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Introduce(): JSX.Element {
     let [list, setList] = useState<IntroduceType[]>([]);
@@ -13,6 +15,10 @@ export default function Introduce(): JSX.Element {
             .then((res) => { return setList(res.data) }),
     )
 
+    useEffect(() => {
+        AOS.init();
+    })
+
     return (
         <React.Fragment>
             <h2 className="mt-10 text-3xl font-bold text-center sm:text-4xl">작성된 프로젝트 <span className="text_gradient2">{list.length}개</span></h2>
@@ -21,7 +27,7 @@ export default function Introduce(): JSX.Element {
                     {
                         list.map(function (item: IntroduceType, idx: number) {
                             return (
-                                <div className="introduce_Wrapper w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx}>
+                                <div className="introduce_Wrapper w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx} data-aos="fade-up" data-aos-duration={idx % 2 == 0 ? "1000" : "1150"} data-aos-easing="ease-in-out" data-aos-once="false">
                                     <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-2xl duration-500">
                                         <div
                                             className="bg-cover h-80 introduce_img"

@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import Animation from '@components/Animation/Animation'
 import { useNavigate } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Undefined(): JSX.Element {
     const navigate = useNavigate();
 
+    useEffect(() => {
+        AOS.init();
+    })
+
     return (
         <React.Fragment>
-            <div className='Undefined max-w-full w-[90%] md:w-1/3 mx-auto'>
+            <div className='Undefined max-w-full w-[90%] md:w-1/3 mx-auto' data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">
 
                 <Animation />
 
