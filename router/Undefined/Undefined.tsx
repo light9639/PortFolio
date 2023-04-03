@@ -13,7 +13,7 @@ export default function Undefined(): JSX.Element {
 
     return (
         <React.Fragment>
-            <div className='Undefined max-w-full w-[90%] md:w-1/3 mx-auto' data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">
+            <div className='Undefined max-w-full w-[90%] md:w-1/3 mx-auto' data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
 
                 <Animation />
 
@@ -22,9 +22,9 @@ export default function Undefined(): JSX.Element {
                     <p className="my-8 text-sm md:text-[1.1rem] dark:text-gray-400">검색어를 확인하시고, 다시 시도해주세요.</p>
                     <button
                         onClick={() => { navigate("/"); }}
-                        className="px-8 py-3 font-semibold Blue_box hover:opacity-75 transition"
+                        className="px-8 py-3 font-semibold Blue_box hover:opacity-75 transition overflow-hidden"
                         style={{ borderRadius: "25px" }}
-                    >홈으로 이동</button>
+                    ><span>홈으로 이동</span></button>
                 </div>
             </div>
         </React.Fragment>

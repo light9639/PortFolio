@@ -25,7 +25,7 @@ export default function Site(): JSX.Element {
                     {
                         list.map(function (item, idx: number) {
                             return (
-                                <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx} data-aos="fade-up" data-aos-duration={idx % 2 == 0 ? "1000" : "1150"} data-aos-easing="ease-in-out" data-aos-once="false">
+                                <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx} data-aos="fade-up" data-aos-duration={idx % 2 == 0 ? "1000" : "1150"} data-aos-easing="ease-in-out" data-aos-once="true">
                                     <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl duration-500">
                                         <div
                                             className="bg-cover h-80"
@@ -36,12 +36,11 @@ export default function Site(): JSX.Element {
                                             <div className="mb-4 text-grey-darker text-base flex-1">
                                                 <p className="px-3 pt-2">{item.contents}</p>
                                             </div>
-                                            <a
-                                                href={item.href}
-                                                className="border-t border-grey-light pt-7 pb-3 text-1xl text-grey hover:text-red no-underline tracking-wide"
-                                            >
-                                                <span className="Blue_box inline px-4 py-3 rounded-md text-white text-base md:text-lg line-clamp-1">{item.title}로 이동</span>
-                                            </a>
+                                            <div className="border-t border-grey-light pt-7 pb-3 text-1xl text-grey hover:text-red no-underline tracking-wide">
+                                                <a href={item.href} className="Blue_box inline px-5 py-2.5 rounded-md ">
+                                                    <span className="text-white text-base md:text-lg line-clamp-1">{item.title}로 이동</span>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

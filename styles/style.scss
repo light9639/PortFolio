@@ -82,10 +82,6 @@ body {
     text-decoration: none;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-
-    &:hover {
-      opacity: 0.75;
-    }
   }
 
   h1 {
@@ -119,18 +115,13 @@ body {
     cursor: pointer;
     -webkit-transition: border-color 0.25s;
     transition: border-color 0.25s;
-
-    &:hover {
-      border-color: #118eff;
-    }
-
-    &:focus,
-    &:focus-visible {
-      outline: 4px auto -webkit-focus-ring-color;
-    }
   }
 
   .introduce_Wrapper:nth-child(3) .introduce_box .introduce_img {
     background-position-y: -75px !important;
+  }
+
+  #toggleDarkMode:hover {
+    border-color: #118eff;
   }
 }
