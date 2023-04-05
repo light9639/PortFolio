@@ -25,7 +25,7 @@ export default function Site(): JSX.Element {
                     {
                         list.map(function (item, idx: number) {
                             return (
-                                <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col p-5" key={idx} data-aos="fade-up" data-aos-duration={idx % 2 == 0 ? "1000" : "1150"} data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div className="w-full sm:w-1/1 md:w-1/2 flex flex-col px-1 lg:px-3 my-5" key={idx} data-aos="fade-up" data-aos-duration={idx % 2 == 0 ? "1000" : "1150"} data-aos-easing="ease-in-out" data-aos-once="true">
                                     <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col hover:scale-105 hover:shadow-2xl duration-500">
                                         <div
                                             className="bg-cover h-80"
