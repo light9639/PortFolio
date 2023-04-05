@@ -12,8 +12,8 @@ export default function SideBar(): JSX.Element {
 
     return (
         <div className={`${ReduxBoolean ? "opacity-0 -z-10" : "opacity-100 z-50"} w-screen h-screen fixed left-0 top-0 bg-opacity-75 bg-slate-800 block lg:hidden duration-700`} >
-            <div className="w-screen h-screen bg-slate-900 shadow border border-slate-900 flex justify-center items-center">
-                <ul className=" text-left mt-4">
+            <div className="w-screen h-screen bg-slate-900 shadow border border-slate-900">
+                <ul className="text-left mt-48">
                     {
                         data.map(function (item) {
                             return (
