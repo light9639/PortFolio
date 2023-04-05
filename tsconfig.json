@@ -17,12 +17,14 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@router/*": ["router/*"],
+      "@pages/*": ["pages/*"],
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"],
       "@src/*": ["src/*"],
     }
   },
-  "include": ["src", "data/data.ts", "**/*.ts", "**/*.tsx", "router/About/About_data.json"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "data/data.ts", "**/*.ts", "**/*.tsx", "pages/About/About_data.json"],
+  "references": [{
+    "path": "./tsconfig.node.json"
+  }]
 }

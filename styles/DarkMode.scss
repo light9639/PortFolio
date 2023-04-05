@@ -1,6 +1,22 @@
-/* 다크 모드 시 적용할 되는 CSS */
-.Dark {
-    background: url("https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/bakcground_dark.jpg");
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #118eff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+.dark {
+    body {
+        background: url("https://raw.githubusercontent.com/light9639/PortFolio/master/src/img/bakcground_dark.jpg");
+    }
 
     h1,
     h2,
@@ -38,10 +54,15 @@
         background-color: rgb(30 41 59/var(--tw-bg-opacity));
     }
 
+    #toggleButton,
     #toggleDarkMode {
         --tw-bg-opacity: 1;
         background-color: rgb(30 41 59/var(--tw-bg-opacity));
-        border: none;
+        border: 1px solid #334155;
+    }
+
+    #toggleButton div {
+        background: #60a5fa;
     }
 
     .Light_button {
@@ -51,27 +72,16 @@
     .Dark_button {
         display: block;
     }
-}
 
-
-@media (prefers-color-scheme: light) {
-    :root {
-        color: #213547;
-        background-color: #ffffff;
+    .toggleMenuBar {
+        background: #fff;
     }
 
-    a:hover {
-        color: #118eff;
+    body::-webkit-scrollbar-thumb {
+        background: #dbeafe;
     }
 
-    button {
-        background-color: #f9f9f9;
-    }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-        -webkit-animation: logo-spin infinite 20s linear;
-        animation: logo-spin infinite 20s linear;
+    body::-webkit-scrollbar-track {
+        background: #334155;
     }
 }

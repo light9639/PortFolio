@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import About from '@router/About/About';
-import Site from '@router/Site/Site';
-import Introduce from '@router/Introduce/Introduce';
-import Section from '@router/Section/Section';
-import Undefined from '@router/Undefined/Undefined';
+import About from '@pages/About';
+import Site from '@pages/Site';
+import Introduce from '@pages/Introduce';
+import Section from '@pages/Section';
+import Undefined from '@pages/Undefined';
 
 export default function App(): JSX.Element {
   return (

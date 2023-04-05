@@ -3,7 +3,7 @@ import axios from "axios";
 import { IntroduceType } from "@src/Type/TypeBox";
 import { useQuery } from '@tanstack/react-query'
 import React, { useState, useEffect } from "react";
-import Loading from '@components/Loading/Loading';
+import Loading from '@components/Loading';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,7 +22,7 @@ export default function Introduce(): JSX.Element {
     return (
         <React.Fragment>
             <h2 className="mt-10 text-3xl font-bold text-center sm:text-4xl">작성된 프로젝트 <span className="text_gradient2">{list.length}개</span></h2>
-            <div className="flex flex-wrap -m-3 dark:bg-slate-900 mt-10 max-w-5xl mx-auto">
+            <div className="flex flex-wrap -m-3 mt-10 max-w-5xl mx-auto">
                 <React.Fragment>
                     {
                         list.map(function (item: IntroduceType, idx: number) {

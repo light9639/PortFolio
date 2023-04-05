@@ -1,31 +1,19 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import { useTheme } from 'next-themes'
+import { useSelector } from 'react-redux'
+import { RootState } from '../redux/store'
 
 export default function DarkModeToggle(): JSX.Element {
-    const [count, setCount] = React.useState<boolean>(true)
-
-    useEffect(() => {
-        if ( localStorage.getItem('color-theme') == 'Dark' ) {
-            setCount(false);
-        }
-    }, []);
-
-    useEffect(() => {
-        if ( count ) {
-            document.body.classList.remove('Dark');
-            localStorage.setItem('color-theme', "Light");
-        }
-        else {
-            document.body.classList.add('Dark');
-            localStorage.setItem('color-theme', 'Dark');
-        }
-    }, [count])
+    const { theme, setTheme } = useTheme()
+    const Item = useSelector((state: RootState) => state);
+    const ReduxBoolean = Item.boolean.ReduxClass;
 
     return (
         <React.Fragment>
             <button
                 id="toggleDarkMode"
-                className="px-5 py-2.5 rounded-lg z-10 bg-gray-50 border-gray-100 hover:opacity-50 transition-all duration-150"
-                onClick={() => setCount(!count)}
+                className={`${ReduxBoolean == false ? "fixed lg:relative top-10 md:top-[2.4rem] lg:top-0 right-20 lg:right-0" : ""} px-2.5 py-2.5 rounded-lg z-10 border border-blue-200 hover:opacity-50 transition-all duration-150 mr-2`}
+                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             >
 
                 {/* Light */}
