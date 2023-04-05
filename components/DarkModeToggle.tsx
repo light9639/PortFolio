@@ -12,12 +12,12 @@ export default function DarkModeToggle(): JSX.Element {
         <React.Fragment>
             <button
                 id="toggleDarkMode"
-                className={`${ReduxBoolean == false ? "fixed lg:relative top-10 md:top-[2.4rem] lg:top-0 right-20 lg:right-0" : ""} px-2.5 py-2.5 rounded-lg z-10 border border-blue-200 hover:opacity-50 transition-all duration-150 mr-2`}
+                className={`${ReduxBoolean == false ? "fixed lg:relative top-[2.425rem] md:top-[2.4rem] lg:top-0 right-[4.85rem] md:right-20 lg:right-0" : ""} px-2.5 py-2.5 rounded-lg z-10 lg:border lg:border-blue-200 hover:opacity-50 transition-all duration-150 mr-2`}
                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             >
 
                 {/* Light */}
-                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="Light_button w-6 h-6 toggle-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="Light_button w-7 lg:w-6 toggle-icon">
                     <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" className="stroke-blue-400 fill-blue-400"></path>
                     <path d="M12 4v1M17.66 6.344l-.828.828M20.005 12.004h-1M17.66 17.664l-.828-.828M12 20.01V19M6.34 17.664l.835-.836M3.995 12.004h1.01M6 6l.835.836" className="stroke-blue-400"></path>
                 </svg>

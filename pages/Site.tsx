@@ -37,7 +37,7 @@ export default function Site(): JSX.Element {
                                                 <p className="px-3 pt-2">{item.contents}</p>
                                             </div>
                                             <div className="border-t border-grey-light pt-7 pb-3 text-1xl text-grey hover:text-red no-underline tracking-wide">
-                                                <a href={item.href} className="Blue_box inline px-5 py-2.5 rounded-md ">
+                                                <a href={item.href} className="Blue_box px-5 py-2.5 rounded-md ">
                                                     <span className="text-white text-base md:text-lg line-clamp-1">{item.title}로 이동</span>
                                                 </a>
                                             </div>

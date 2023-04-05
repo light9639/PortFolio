@@ -13,7 +13,7 @@ export default function Nav(): JSX.Element {
 
     return (
         <React.Fragment>
-            <header className="text-gray-700 body-font">
+            <header className="text-gray-700 body-font lg:pt-1">
                 <div className="w-full lg:container mx-auto flex flex-wrap p-5 flex-row items-center">
                     <Link to="/">
                         <a className="logo flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="#" target="_blank">
@@ -41,7 +41,7 @@ export default function Nav(): JSX.Element {
                         <div className="relative block lg:hidden cursor-pointer z-[60]">
                             <button
                                 id='toggleButton'
-                                className={`${ReduxBoolean == false ? "bg-transparent fixed top-10 md:top-[2.4rem] right-9" : ""} flex flex-col p-2 rounded-lg justify-center items-center group border border-blue-200`}
+                                className={`${ReduxBoolean == false ? "bg-transparent fixed top-10 md:top-[2.4rem] right-9" : ""} flex flex-col p-2 rounded-lg justify-center items-center group lg:border lg:border-blue-200`}
                                 onClick={() => { dispatch(changeElement()) }}
                             >
                                 <div
