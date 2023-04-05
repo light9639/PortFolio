@@ -27,7 +27,7 @@ export default function Introduce(): JSX.Element {
                     {
                         list.map(function (item: IntroduceType, idx: number) {
                             return (
-                                <div className="introduce_Wrapper w-full sm:w-1/1 md:w-1/2 flex flex-col px-1 lg:px-3 my-5" key={idx} data-aos="fade-up" data-aos-duration={idx % 2 == 0 ? "1000" : "1150"} data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div className="introduce_Wrapper w-full sm:w-1/1 md:w-1/2 flex flex-col px-2 md:px-2 lg:px-3 my-5" key={idx} data-aos="fade-up" data-aos-duration={idx % 2 == 0 ? "1000" : "1150"} data-aos-easing="ease-in-out" data-aos-once="true">
                                     <div className="introduce_box bg-white rounded-lg shadow-lg overflow-hidden flex flex-col hover:scale-105 hover:shadow-2xl duration-500">
                                         <div
                                             className="bg-cover h-80 introduce_img"

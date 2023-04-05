@@ -14,13 +14,13 @@ export default function Nav(): JSX.Element {
     return (
         <React.Fragment>
             <header className="text-gray-700 body-font lg:pt-1">
-                <div className="w-full lg:container mx-auto flex flex-wrap p-5 flex-row items-center">
+                <div className="w-full lg:container mx-auto flex flex-wrap px-2 py-3 md:py-5 md:px-3 lg:p-5 flex-row items-center">
                     <Link to="/">
-                        <a className="logo flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="#" target="_blank">
+                        <a className="logo flex title-font font-medium items-center text-gray-900 mb-0" href="#" target="_blank">
                             <img src={MyLogo} alt="myLogo" style={{ width: '50px' }} />
                         </a>
                     </Link>
-                    <nav className="flex flex-wrap items-center text-base justify-center ml-auto gap-0 -mt-3 md:mt-0">
+                    <nav className={`${ReduxBoolean == false ? "relative z-[60]" : ""} flex flex-wrap items-center text-base justify-center ml-auto gap-0 -mr-1`}>
                         <Link to="/">{<span className="Nav_text hidden lg:block mr-5">홈</span>}</Link>
                         <Link to="/About">{<span className="Nav_text hidden lg:block mr-5">소개</span>}</Link>
                         <Link to="/Site">{<span className="Nav_text hidden lg:block mr-5">사이트</span>}</Link>
@@ -41,7 +41,7 @@ export default function Nav(): JSX.Element {
                         <div className="relative block lg:hidden cursor-pointer z-[60]">
                             <button
                                 id='toggleButton'
-                                className={`${ReduxBoolean == false ? "bg-transparent fixed top-10 md:top-[2.4rem] right-9" : ""} flex flex-col p-2 rounded-lg justify-center items-center group lg:border lg:border-blue-200`}
+                                className={`${ReduxBoolean == false ? "bg-transparent fixed top-8 md:top-[2.4rem] right-5 md:right-6" : ""} flex flex-col p-2 rounded-lg justify-center items-center group lg:border lg:border-blue-200`}
                                 onClick={() => { dispatch(changeElement()) }}
                             >
                                 <div
