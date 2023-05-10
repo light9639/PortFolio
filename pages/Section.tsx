@@ -14,7 +14,7 @@ export default function Section(): JSX.Element {
 
     return (
         <section className="text-gray-700 body-font">
-            <div className="container mx-auto flex px-5 py-14 md:py-28 flex-col lg:flex-row items-center">
+            <div className="container mx-auto flex px-5 py-14 md:py-28 md:px-10 flex-col lg:flex-row items-center">
                 <div className="flex flex-col mb-16 items-center text-center lg:w-1/2 lg:pr-16 lg:items-start lg:text-left lg:mb-0 lg:flex-grow" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
                     <h1 className="title-font text-2xl mb-1 lg:mb-4 text-gray-900 md:text-3xl">안녕하세요.</h1>
                     <h1 className="dark:text-white title-font leading-9 lg:leading-8 text-2xl mb-4 font-semibold text-gray-900 md:text-3xl">

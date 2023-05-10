@@ -14,7 +14,7 @@ export default function Nav(): JSX.Element {
     return (
         <React.Fragment>
             <header className="text-gray-700 body-font lg:pt-1">
-                <div className="w-full lg:container mx-auto flex flex-wrap px-2 py-3 md:py-5 md:px-3 lg:p-5 flex-row items-center">
+                <div className="w-full lg:container mx-auto flex flex-wrap px-2 py-3 md:px-3 lg:py-5 lg:px-10 flex-row items-center">
                     <Link to="/">
                         <a className="logo flex title-font font-medium items-center text-gray-900 mb-0" href="#" target="_blank">
                             <img src={MyLogo} alt="myLogo" style={{ width: '50px' }} />

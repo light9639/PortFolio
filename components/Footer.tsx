@@ -4,7 +4,7 @@ export default function Footer(): JSX.Element {
     return (
         <React.Fragment>
             <footer className="text-gray-600 border-t body-font">
-                <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
+                <div className="container flex flex-col items-center px-5 py-8 md:px-10 mx-auto sm:flex-row">
                     <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start" href="#void">
                         <span className="footer_text font-semibold text-[#118eff]">이동호 포트폴리오</span>
                     </a>
