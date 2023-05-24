@@ -12,7 +12,7 @@ export default function DarkModeToggle(): JSX.Element {
         <React.Fragment>
             <button
                 id="toggleDarkMode"
-                className={`${ReduxBoolean == false ? "opacity-0 hidden duration-500" : ""} px-2.5 py-2.5 rounded-lg z-10 lg:border lg:border-blue-200 hover:opacity-50 transition-all duration-150 mr-2`}
+                className={`${ReduxBoolean == false ? "opacity-0 hidden duration-500" : ""} px-2.5 py-2.5 rounded-lg z-10 hover:opacity-50 shadow transition-all duration-150 mr-2`}
                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             >
 
