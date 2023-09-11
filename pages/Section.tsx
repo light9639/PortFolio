@@ -20,7 +20,7 @@ export default function Section(): JSX.Element {
                     <h1 className="dark:text-white title-font leading-9 xl:leading-8 text-2xl mb-4 font-semibold text-gray-900 md:text-3xl">
                         저의 포트폴리오 사이트에 <br className='block xl:hidden' />방문해주셔서 감사합니다!
                     </h1>
-                    <p className="mb-9 leading-relaxed text-base mt-3" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">저는 웹 프론트엔드 개발분야에 취업을 준비중인 이동호 입니다.
+                    <p className="mb-9 leading-relaxed text-base mt-3" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">저는 웹 퍼블리싱, 프론트엔드 개발분야에 취업을 준비중인 이동호 입니다.
                         <br className='hidden sm:block' /> React, Vue, Express, Typescript 등 웹개발에 필요한 기술에 관심이 많습니다.</p>
                     <div className="flex justify-center flex-wrap md:flex-nowrap gap-3">
                         <Link to="/About" className="Blue_box sm:w-auto WebKit py-2 px-5 leading-8 focus:outline-none border-none transition">

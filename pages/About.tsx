@@ -27,7 +27,7 @@ export default function About(): JSX.Element {
                             </div>
                             <div className='pt-1'>
                                 <p className="mt-5 mb-7" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">안녕하세요. 저의 포트폴리오 사이트에 방문해주셔서 감사합니다! <br className='hidden md:block' />
-                                    저는 웹 프론트엔드 개발분야에 취업을 준비중인 이동호 입니다. <br className='hidden md:block' />
+                                    저는 웹 퍼블리싱, 프론트엔드 개발분야에 취업을 준비중인 이동호 입니다. <br className='hidden md:block' />
                                     React, Vue, Express, Typescript 등 웹 개발에 필요한 기술에 관심이 많습니다. </p>
                             </div>
                             <hr className="border-gray-300" />
